@@ -1,32 +1,17 @@
 ﻿# The script of the game goes in this file.
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
+define f = Character("Ferryman")
+define b = Character("Bug")
 
 # The game starts here.
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+#shit i think we need a background for this. thankfully it's only black.
 
-    scene bg room
+    f "You can try to flee from the chill. But the cold's in your bones now."
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    f "No matter how far you go, it'll {i}{b}always{/b}{/i} find a way in."
 
     # This ends the game.
 
