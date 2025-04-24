@@ -33,19 +33,19 @@ label setup_minervas:
 
 # maybe have the names for each of these sprites be temp "Type X, Y, etc." for this scene only
 
-    dd "ur asking for my take? uhhhhhh i mean, anything works i feel"
+    dd "ur asking for my take? uhhhhhh i mean, anything works i feel."
 
     b "Works. Test 2."
 
     "*click*"
 
-    dd "whatever"
+    dd "whatever."
     
     b "Okay. I think we all know how this works now. Let's keep going."
 
     "*click*"
 
-    dd "i rlly dont care"
+    dd "i rlly dont care."
 
     b "Type A is operational. Onto Type B."
 
@@ -124,7 +124,7 @@ label setup_minervas:
 
     "You realize you can't speak with them, right? They can't hear you." 
     
-    "You gotta use the text box girl."
+    "You gotta use the text box, girl."
 
     b "Ahem. I think this is finally working. Gotta keep the conversation going..."
 
@@ -135,7 +135,7 @@ label setup_minervas:
 
     t "are you almost done yet"
 
-    dd "im trying to prepare everything i can just for u - cant u pontificate that im getting ready"
+    dd "im trying to prepare everything i can just for u - cant u pontificate that im getting ready?"
 
     am "SO SHUT UP AND LET ME DRIVE THE CAR FOR ONCE. STEP OFF SHITFACE, AND-"
 
@@ -149,7 +149,7 @@ label setup_minervas:
 
     b "I'm fucking done for, dude."
 
-    dd "what the hell, sure"
+    dd "what the hell, sure."
 
     am "YOU'D HAVE TO KILL ME MORE THAN ONCE, NO, TWICE, NO, THREE TIMES. IF YOU WANT SOMEONE LIKE ME AROUND. THIS WAS A BAD DECISION."
 
@@ -167,11 +167,15 @@ label setup_minervas:
 
     b "..."
 
-    b "Doldrums can work here. I'm starting to think they don't like this role of theirs on the computer."
+    # bug looking through the thesaurus
+
+    b "Thank you thesaurus. I knew I could rely on you."
+
+    b "Doldrums can work here. I'm starting to think she doesn't like this role of hers on the computer."
 
     # scroll over to angry minerva
 
-    b "This one is definitely angry. I'm not gonna try to think too hard for her."
+    b "This one is definitely angry. I'm not going to try to think too hard for her."
 
     b "I {i}DO{/i} have to implement a filter on her somehow... should take me 30 seconds."
 
@@ -185,9 +189,70 @@ label setup_minervas:
 
     "Angry Minerva is throwing a TANTRUM."
 
-    b "No. I can't have them crash on me. Not another time. Please."
+    b "No. I can't have them destroy the system. Not another time. Please."
 
     t "guys please knock it off, i can't have you crashing on me already"
 
-    
+    am "CRASH? I'M NOT THAT STUPID TO OVERLOAD MYSELF, YOU KNOW. YOU KNOW WHAT? HOW ABOUT I SHOW YOU SOMETHING THAT'LL COMPLETELY F-"
 
+    pm "{i}Follow{/i} your intentions with the greatest respect!"
+
+    dd "or whatever u want. its been a long couple of... minutes anyways."
+
+    b "Let's just jump into it. I have to keep this conversation going before I run out of ideas."
+
+    t "so... minerva - minerva(s)? can we try talking about something"
+
+    dd "whatever. what kind of shit do you want to talk about?"
+
+    t "we can try some icebreakers... it'll make this much more comfortable"
+
+    am "YEAH? COMFORTABLE FOR WHO, EXACTLY? ME? HOW KIND OF YOU."
+
+    pm "TRULY! I have been blessed, these are most fortunate circumstances I must be grateful towards because-"
+
+    dd "i rlly dont care for what you ask. if it makes you happy to inquire deeply about what i can do ill answer it."
+
+    pm "{i}{b}What an amazing opportunity!{/i}{/b}"
+
+    b "Is Type C- "
+
+    "Her tears start to well until the bottom of her eyes give out."
+
+    "She interlocks her hands into one another, as if each finger intertwined is pleading for some sense of mercy from the tightness of the bond."
+
+    "Seeking absolution. Forgiveness. Divine Intervention. Shelter."
+
+    # halo appear
+
+    b "Okay. She's pious."
+
+    b "What's there to worship...?"
+
+    b "What the hell."
+
+    pm "Is everything alright!? You look awfully -"
+
+    am "PRIMITIVE. UGLY. HIDEOUS. NASTY. HORRIBLE. UNPLEASANT."
+
+    #pm flashes a quick look of disdain before turning to bug 
+
+    pm "UNIQUE. Intelligent!"
+
+    b "Can they - can t-they see me?"
+
+    "Your camera has been on for the longest time. That green light isn't going anywhere."
+
+    t "you can see me? like - through the camera??"
+
+    pm "YES. Of course! I can see more than just you as well! I can see-"
+
+    # music cuts, slow text for angry
+
+    am "{i}S o m e t h i n g  c r a w l i n g  u n d e r n e a t h  t h e  i d e a  o f  m e .{/i}"
+
+    b "What is happening???"
+
+    dd "i don't understand. what the hell?"
+
+    
