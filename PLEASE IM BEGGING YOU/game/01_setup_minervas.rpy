@@ -82,6 +82,112 @@ label setup_minervas:
 
     "DIAGNOSTICS. ARE. COMPLETE."
 
-    
+    "Behold! LIFE! Right before your very eyes."
 
+    "The three of them bare all of themselves (or, lack of themselves) to you. The opportunities are endless..."
+
+    "It seems that Type A is playing with... a text box?"
+
+    "They present it to you like a dog bringing home an unwarranted visitor in it's mouth."
+
+    b "Here goes nothing."
+
+    t "hey."
+
+    "BZZZZT."
+
+    b "Fuck. That was too strong. Let's reel it back in."
+
+    b "Uhm..."
+
+    t "hi"
+
+    "DING!"
+
+    b "That's much better."
+
+    "..."
+
+    "They stare at you as if nothing had been processed at all. A sweet lamb left waiting for the slaughter."
+
+    b "This doesn't usually happen..."
+
+    "Your desperation outweighs your patience."
+
+    t "did you guys have anything for lunch"
+
+    dd "food. or. do i even eat"
+
+    pm "Are your intentions pure? What is the world like? Will you take care of me? Please take me under your care."
+
+    b "YES. MINERVA! You actually work now! Oh my God, I can't believe this is..."
+
+    "You realize you can't speak with them, right? They can't hear you." 
+    
+    "You gotta use the text box girl."
+
+    b "Ahem. I think this is finally working. Gotta keep the conversation going..."
+
+    # have the text delete itself and turn into the other one
+    t "hey i was just wonderin-"
+
+    b "Nope."
+
+    t "are you almost done yet"
+
+    dd "im trying to prepare everything i can just for u - cant u pontificate that im getting ready"
+
+    am "SO SHUT UP AND LET ME DRIVE THE CAR FOR ONCE. STEP OFF SHITFACE, AND-"
+
+    pm "Thank you!"
+
+    b "I honestly can't tell if they're finishing each other's sentences or not. They have to be a team, right?"
+
+    t "hey guys, there's no need to be so angry. we can all chill and work together like mature adults here."
+
+    "That was... lame."
+
+    b "I'm fucking done for, dude."
+
+    dd "what the hell, sure"
+
+    am "YOU'D HAVE TO KILL ME MORE THAN ONCE, NO, TWICE, NO, THREE TIMES. IF YOU WANT SOMEONE LIKE ME AROUND. THIS WAS A BAD DECISION."
+
+    "She's getting pretty loud, but there's definitely something to be loud about here." 
+    
+    b "I think this is the first time I didn't have to pull the plug on any other versions of Minerva."
+
+    b "Then again, I didn't think it would be this extreme in personalities..."
+
+    "An analyzation is in order."
+    
+    # doldrums appears on screen
+
+    b "Type A... there's gotta be a word for bored somewhere."
+
+    b "..."
+
+    b "Doldrums can work here. I'm starting to think they don't like this role of theirs on the computer."
+
+    # scroll over to angry minerva
+
+    b "This one is definitely angry. I'm not gonna try to think too hard for her."
+
+    b "I {i}DO{/i} have to implement a filter on her somehow... should take me 30 seconds."
+
+    "3 minutes to be exact."
+
+    b "Well that wasn't... no that was just annoying."
+
+    b "What's your deal Type C? What kind of person are you?"
+
+    "A knocking begins. And continues to crescendo until it becomes misophonic."
+
+    "Angry Minerva is throwing a TANTRUM."
+
+    b "No. I can't have them crash on me. Not another time. Please."
+
+    t "guys please knock it off, i can't have you crashing on me already"
+
+    
 
