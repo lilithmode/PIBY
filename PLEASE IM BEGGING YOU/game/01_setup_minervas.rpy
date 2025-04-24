@@ -247,12 +247,32 @@ label setup_minervas:
 
     pm "YES. Of course! I can see more than just you as well! I can see-"
 
-    # music cuts, slow text for angry
+    # music cuts, slow text for angry, no vl
 
     am "{i}S o m e t h i n g  c r a w l i n g  u n d e r n e a t h  t h e  i d e a  o f  m e .{/i}"
 
     b "What is happening???"
 
-    dd "i don't understand. what the hell?"
+    dd "i-uh don't understand. what the hell?"
+
+    pm "GRACE. And Joy!"
+
+    dd "yeah. whatever that means."
+
+    b "This. Is beyond anything I can comprehend. Or at least digest."
+
+    b "Crawling UNDERNEATH? Are they high, or something? It HAS to be something I missed before I relaunched this program."
+
+    b "It can't be the other ones, they don't... They don't exist anymore!"
+
+    b "This has to be perfect or else this won't work for me. It'll be {i}pointless.{/i}"
+
+    dd "..."
+
+    dd "... so r u gonna ask me something? like how my day was? this better b good."
+
+    am "OTHERWISE. YOU'RE GONNA PISS ME OFF."
+
+    jump mym_minerva_1
 
     
