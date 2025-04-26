@@ -1,0 +1,62 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/02_minervas_mym.rpy", line 23, in script
+    menu:
+  File "renpy/common/000window.rpy", line 129, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 109, in _window_hide
+    renpy.with_statement(None)
+  File "renpy/common/00library.rpy", line 178, in _default_empty_window
+    store.narrator.empty_window(multiple=multiple)
+TypeError: missing a required argument: 'who'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/02_minervas_mym.rpy", line 23, in script
+    menu:
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 1595, in execute
+    statement_name(name)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 58, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 129, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 109, in _window_hide
+    renpy.with_statement(None)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/exports/statementexports.py", line 257, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/display/core.py", line 1577, in do_with
+    self.with_none()
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/display/core.py", line 1595, in with_none
+    self.show_window()
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/display/core.py", line 1563, in show_window
+    renpy.config.empty_window()
+  File "renpy/common/00library.rpy", line 178, in _default_empty_window
+    store.narrator.empty_window(multiple=multiple)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/character.py", line 1322, in empty_window
+    self.do_show(None, "")
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/character.py", line 1095, in do_show
+    return self.show_function(
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/character.py", line 397, in show_display_say
+    renpy.display.screen.show_screen(
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/display/screen.py", line 1362, in show_screen
+    sls.add(_layer, d, _tag, zorder=_zorder, transient=_transient, keep_st=True, name=name)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/display/scenelists.py", line 444, in add
+    if not self.hide_or_replace(layer, remove_index, "replaced"):
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/display/scenelists.py", line 503, in hide_or_replace
+    if not oldsle.displayable._handles_event(prefix):
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/display/screen.py", line 533, in _handles_event
+    self.update()
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/display/screen.py", line 700, in update
+    self.screen.function(**self.scope)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/parameter.py", line 455, in apply_arguments
+    return parameters.apply(args or (), kwargs or {}, ignore_errors)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/parameter.py", line 307, in apply
+    raise TypeError(msg) # from None
+TypeError: missing a required argument: 'who'
+
+macOS-13.4-arm64-arm-64bit arm64
+Ren'Py 8.3.7.25031702
+PLEASE IM BEGGING YOU 1.0
+Fri Apr 25 23:28:18 2025

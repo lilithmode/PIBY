@@ -2,9 +2,25 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 13: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    scene bg room
+File "game/02_minervas_mym.rpy", line 22: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/02_minervas_mym.rpy", line 24: menu statement expects a non-empty block.
+    menu:
+        ^
+
+File "game/02_minervas_mym.rpy", line 28: expected statement.
+    else:
+        ^
+
+File "game/02_minervas_mym.rpy", line 41: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    "you feeling alright now?":
+    ^
+
+File "game/02_minervas_mym.rpy", line 46: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    "how was initilization? do you remember any of the process?":
     ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Wed Apr 23 16:58:31 2025
+Fri Apr 25 23:23:22 2025

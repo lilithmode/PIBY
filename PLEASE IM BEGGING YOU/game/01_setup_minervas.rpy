@@ -273,6 +273,9 @@ label setup_minervas:
 
     am "OTHERWISE. YOU'RE GONNA PISS ME OFF."
 
+    b "I can't handle this... this is all getting to to me..."
+
+    b "Just... need... to calm down..."
     jump mym_minerva_1
 
     
