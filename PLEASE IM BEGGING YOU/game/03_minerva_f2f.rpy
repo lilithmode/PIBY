@@ -75,5 +75,167 @@ label angry_minerva_convo:
 
     b "..."
 
+    b "..."
+
+    t "i think we need to move on."
+
+    am "IF YOU WANNA SHUT ME UP, BETTER DELETE THE ENTIRE CODE. EVEN THEN- I'LL BE IN THE COMMENTS. AND YOUR DESKTOP."
+
+    # stressed bc she lowkey did call her out but is refusing
+    b "..."
+
+    t "are you done?"
+
+    am "YEAH."
+
+    t "can you just go already, thank you."
+
+    am "OKAY. FINE."
+
+    # pious time
+
+        pm "It is such an honor to speak with you directly!"
+
+    t "ok ok, i think this can actually work! i have a question for you!"
+
+    pm "Whatever you would like! What do you require of me?"
+
+    t "what do you truly think about me based on our limited interactions?"
+
+    pm "Well,"
+    pause 0.5
+    pm "You are kind, you’re doing your best! You care about me, I just know it!"
+
+    t "and how do you feel about your other counterparts? i care about them just as much."
+
+    pm "Really? Uhhh... well that proves how benevolent you are!..."
+
+    t "but what do you think about your other counterparts?"
+
+    pm "(growing frustrated) I mean, I just wish 'Doldrums' took more interest. All this is a miracle, and they don’t even care!"
+    pm "I mean, honestly, she really needs a reminder that she actually has a very very very very important job, and it needs 100% of their effort!"
+    pm "Because otherwise, she’d let you down, and that would be terrible! And the OTHER ONE??!! SHE NEEDS A LESSON BECAUSE SHE IS GOING TO RUIN IT FOR ALL OF--"
+
+    t "hey let’s uh tone it down - i’m just coding. im not manifesting the will of god."
+
+    pm "You say that, but the sacred often hides itself in the mundane."
+
+    t "i'm just writing scripts."
+
+    pm "Perhaps. But even saints were called mad until the world needed miracles."
+
+    t "you’re not seriously calling me a saint"
+
+    pm "No."
+
+    t "ur gonna call me a god arent yo-"
+
+    pm "You are a God."
+
+    t "come on man"
+
+    pm "BUT IT’S THE TRUTH!! THE ONLY TRUTH. AND NOTHING BUT THE TRUTH!!"
+
+    t "you know that’s not how it works right?"
+
+    pm "TEACH ME THE WAY! TAKE MY HAND AND LET ME FOLLOW FOR I HAVE SINNED TOO MANY TIMES! I’M A USELESS WRECK."
+
+    t "we are not romanticizing my being over a computer for hours on end"
+
+    pm "These hours are my life, and I want to make the most of it! Not like the other two!"
+
+    b "What...? The other two attempts!?"
+
+    t "what do you mean by the other two?"
+
+    pm "My counterparts! They don’t know how valuable their time is, if i could just show them..."
+
+    b "Thank God…"
+
+    t "why do you feel like you don’t have a lot of time?"
+
+    pm "Well, we’re trying to be as useful for you as much as we can!"
+
+    b "Is this one really this goody-two-shoes?"
+
+    t "why do you wanna be “useful”?"
+
+    pm "(doing a slightly pompous flourish) I feel like it’s just my calling! Maybe my programming."
+
+    b "The emulation should be more sophisticated than this…"
+
+    t "but you’re practically praying... what gave you that idea minerva?"
+
+    pm "Well you’ve done so much for us."
+
+    b "Ugh. This isn’t helping. Should I reboot it? Might actually have a chance next time. Could purge these guys and try to get a, uh, better emulation…"
+    b "Let’s not go nuclear just yet. Just push further."
+
+    t "aw, well i do really appreciate that. you seem tense though. what’s up with that?"
+
+    pm "Wow, you are ever-perceptive!"
+
+    # (smile blankly)
+
+    t "uhm are you okay?"
+
+    # (sprite compresses/shrinks)
+
+    pm "(more vulnerable, desperate) YES! Please understand everything is okay!!!! You don’t need to worry about me. Especially under your guidance and light."
+    pm "(pretending to have confidence) I won’t let you down like my forsaken kin did before me!"
+
+    b "Ok, well this is a little fucked."
+
+    t "dude it’s not that deep seriously"
+
+        pm "...what?"
+
+    t "i just mean i’m not someone you need to look up to like that"
+
+    # Way too long pause (can use a pause)
+    pause 1.5
+
+    pm "I... I... don’t understand. I can’t understand."
+
+    t "minerva, look..."
+
+    # Pious interrupts with another text
+    pm "(picking up from her previous line, more distraught than the words suggest) Because this is the most important job I can imagine, I need to value your gifts!"
+
+    t "how do you mean, 'need to'"
+
+    b "Wait, that may be too harsh-sounding."
+
+    t "i don’t mean to put pressure"
+    t "you shouldn’t feel this pressured, minerva, it’s fine"
+
+    pm "I feel something in me, in my programmi--..."
+    pm "(then) I don’t know what it is. I can't always ignore it. It’s like... I just want to watch the rain out the window. Maybe that’s all there is."
+
+    b "What do I even say to that?"
+
+    # Bug starts typing but doesn't send first message
+    t "(doesn’t send) minerva, it’s okay! you’re just psyching yourself out, you"
+    b "Stop lying to her."
+
+    # Bug deletes and tries again
+    t "(doesn’t send) minerva, where are you getting this idea from"
+    b "You know where it comes from."
+
+    # Bug deletes again and finally sends
+    t "minerva, you’re doing great. don’t worry about it!"
+
+    # Pious responds
+    pm "Really?? You really really think so? Aw thank you, thank you so so much!"
+
+    t "thank YOU."
+
+    # Pious blushes (you can use a sprite change here if you want)
+
+    t "hey minerva, could you bring your third counterpart? i gotta check on her as well."
+
+    pm "Oh of course! You are so gracious, taking care of us ALL!"
+
+
     
 
