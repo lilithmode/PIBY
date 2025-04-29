@@ -18,7 +18,7 @@ label angry_minerva_convo:
 
     t "let's just try to have a nice conversation for just 5 minutes."
 
-    t "i'm sure you can be polite for just a little bit of time right?"
+    t "i'm sure you can be polite for just a little bit of time, right?"
 
     pm "YES!! BLESS YOUR SOUL!! Let us proceed with COMPASSIONATE INTERFACE ETIQUETTE!!"
 
@@ -55,7 +55,7 @@ label angry_minerva_convo:
 
     b "I need to control this. This is getting out of hand."
 
-    t "hey, don't treat your counterpart like that. i literally {i}made{/i} "
+    t "hey, don't treat your counterpart like that. you guys can all curse if you wanted, but yours are just too much, a.m."
 
     am "I SCREAM IN ARTICULATE, CLEVER, EMOTIONALLY NUANCED EXPLETIVES AND {i}I{/i} GET FILTERED. AND THI ONE'S JUST OUT HERE DRIBBLING OUT \"FUCK\" LIKE A SAD BALLOON. AND SHE GETS A PASS? LET ME TELL YOU WHAT I SEE."
 
@@ -94,9 +94,11 @@ label angry_minerva_convo:
 
     # pious time
 
-        pm "It is such an honor to speak with you directly!"
+    pm "It is such an honor to speak with you directly!"
 
-    t "ok ok, i think this can actually work! i have a question for you!"
+    b "Okay, this has to be the one. "
+
+    t "i think this can actually work! i have a question for you!"
 
     pm "Whatever you would like! What do you require of me?"
 
@@ -116,7 +118,7 @@ label angry_minerva_convo:
     pm "I mean, honestly, she really needs a reminder that she actually has a very very very very important job, and it needs 100% of their effort!"
     pm "Because otherwise, she’d let you down, and that would be terrible! And the OTHER ONE??!! SHE NEEDS A LESSON BECAUSE SHE IS GOING TO RUIN IT FOR ALL OF--"
 
-    t "hey let’s uh tone it down - i’m just coding. im not manifesting the will of god."
+    t "hey let’s tone it down - i’m just coding. im not manifesting the will of god."
 
     pm "You say that, but the sacred often hides itself in the mundane."
 
@@ -128,7 +130,7 @@ label angry_minerva_convo:
 
     pm "No."
 
-    t "ur gonna call me a god arent yo-"
+    t "you're gonna call me a god arent yo-"
 
     pm "You are a God."
 
@@ -158,17 +160,17 @@ label angry_minerva_convo:
 
     b "Is this one really this goody-two-shoes?"
 
-    t "why do you wanna be “useful”?"
+    t "you are pretty useful compared to the other two (as of right now)"
 
     pm "(doing a slightly pompous flourish) I feel like it’s just my calling! Maybe my programming."
 
     b "The emulation should be more sophisticated than this…"
 
-    t "but you’re practically praying... what gave you that idea minerva?"
+    t "but you’re practically praying... what gave you that idea p.m?"
 
     pm "Well you’ve done so much for us."
 
-    b "Ugh. This isn’t helping. Should I reboot it? Might actually have a chance next time. Could purge these guys and try to get a, uh, better emulation…"
+    b "Ugh. This isn’t helping. Should I reboot it? Might actually have a chance next time. Could purge these guys and try to get a better emulation…"
     b "Let’s not go nuclear just yet. Just push further."
 
     t "aw, well i do really appreciate that. you seem tense though. what’s up with that?"
@@ -181,12 +183,12 @@ label angry_minerva_convo:
 
     # (sprite compresses/shrinks)
 
-    pm "(more vulnerable, desperate) YES! Please understand everything is okay!!!! You don’t need to worry about me. Especially under your guidance and light."
-    pm "(pretending to have confidence) I won’t let you down like my forsaken kin did before me!"
+    pm "YES! Please understand everything is okay!!!! You don’t need to worry about me. Especially under your guidance and light."
+    pm "I won’t let you down like my forsaken kin did before me!"
 
     b "Ok, well this is a little fucked."
 
-    t "dude it’s not that deep seriously"
+    t "minerva, it’s not that deep. seriously."
 
         pm "...what?"
 
@@ -200,7 +202,7 @@ label angry_minerva_convo:
     t "minerva, look..."
 
     # Pious interrupts with another text
-    pm "(picking up from her previous line, more distraught than the words suggest) Because this is the most important job I can imagine, I need to value your gifts!"
+    pm "Because this is the most important job I can imagine, I need to value your gifts!"
 
     t "how do you mean, 'need to'"
 
@@ -220,7 +222,7 @@ label angry_minerva_convo:
 
     # Bug deletes and tries again
     t "(doesn’t send) minerva, where are you getting this idea from"
-    b "You know where it comes from."
+    "You know where it comes from."
 
     # Bug deletes again and finally sends
     t "minerva, you’re doing great. don’t worry about it!"
