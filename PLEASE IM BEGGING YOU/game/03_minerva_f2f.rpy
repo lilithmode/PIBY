@@ -179,7 +179,7 @@ label angry_minerva_convo:
 
     # (smile blankly)
 
-    t "uhm are you okay?"
+    t "uhm, are you okay?"
 
     # (sprite compresses/shrinks)
 
@@ -217,7 +217,9 @@ label angry_minerva_convo:
     b "What do I even say to that?"
 
     # Bug starts typing but doesn't send first message
-    t "(doesn’t send) minerva, it’s okay! you’re just psyching yourself out, you"
+    t "minerva, it’s okay! you’re just psyching yourself out, you" style "unsent_text"
+    pause 2.0
+    window hide 
     b "Stop lying to her."
 
     # Bug deletes and tries again
