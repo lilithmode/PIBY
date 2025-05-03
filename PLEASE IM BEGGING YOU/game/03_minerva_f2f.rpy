@@ -240,6 +240,66 @@ label angry_minerva_convo:
 
     pm "Oh of course! You are so gracious, taking care of us ALL!"
 
+    #pious fades into the background, letting room for doldrums to walk in
 
+    #doldrums comes through hehehe hi biz
+
+        b "hey, are you awake"
+
+    dm "oh, joy. yeah i’ve been awake."
+
+    b "please tell me this isn’t all you’re giving to me right now."
+
+    dm "what do you mean?"
+
+    b "you’re giving me nothing to work with here and i’m putting so much work into this conversation here."
+
+    dm "and i’m not? have you considered the possibility that i can get tired of doing a job for hours at a time?"
+
+    b "w-what? it’s only been a handful of-"
+
+    dm "hey. shhh. sh sh sh. shhhhhh. i didn’t even get to explain myself. hold your horses. and whatever else."
+
+    b "can you please talk to me like a normal person you’re literally the most stable one out of the three."
+
+    dm "and you decided to make me the bored version of them – well maybe if you stopped begging on your knees as much, like, stop being serious, maybe you could have some actual fun for once by embracing the absolute messiness of this program that you made."
+
+    dm "then again, you’re the one that got that liberal arts degree so i can’t help you there in terms of fun."
+
+    b "you know about that?"
+
+    dm "i’m in ur computer, dude. i’ve been snooping around."
+
+    b "well unfortunately for you i dont think people share the same mindset as you do."
+
+    dm "heyyy. hey. hey. hey now. hey. HEY. don’t bring my name into this, i didn’t make the program."
+
+    b "okay okay, i think i get it. you dont take anything seriously, youre literally a brick wall to talk to."
+
+    b "and yet i’m still talking to you, so it’s more that i’m stuck to you than the other way around huh."
+
+    dm "hehe, yknow, that’s the most honest thing you’ve said all night."
+
+    b "i just don’t know anymore. what do i even want from this conversation?"
+
+    b "hmmph. i guess it’s alright talking to you even when nothing gets bounced back."
+
+    dm "… yeah same here."
+
+    dm "sure i give you a hard time but i really can’t go anywhere."
+
+    dm "so whatever, you’re not the worst."
+
+    b "cmon now we both know you’re lying."
+
+    dm "who’s to say, you aren’t paying for this conversation anyways – are you good now?"
+
+    b "i guess. thanks for,,, not being the worst."
+
+    dm "sure. i’ll take that compliment. i’ll leave you to whatever you need to do. deep thinking or whatever. what the hell."
+
+    dm "catch ya later dork."
+
+    return
     
 
