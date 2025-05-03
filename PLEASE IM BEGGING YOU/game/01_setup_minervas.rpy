@@ -88,6 +88,8 @@ label setup_minervas:
 
     "It seems that Type A is playing with... a text box?"
 
+    
+
     "They present it to you like a dog bringing home an unwarranted visitor in it's mouth."
 
     b "Here goes nothing."

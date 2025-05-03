@@ -190,7 +190,7 @@ label angry_minerva_convo:
 
     t "minerva, it’s not that deep. seriously."
 
-        pm "...what?"
+    pm "...what?"
 
     t "i just mean i’m not someone you need to look up to like that"
 
@@ -217,7 +217,7 @@ label angry_minerva_convo:
     b "What do I even say to that?"
 
     # Bug starts typing but doesn't send first message
-    t "minerva, it’s okay! you’re just psyching yourself out, you" style "unsent_text"
+    t "minerva, it’s okay! you’re just psyching yourself out, you" 
     pause 2.0
     window hide 
     b "Stop lying to her."
