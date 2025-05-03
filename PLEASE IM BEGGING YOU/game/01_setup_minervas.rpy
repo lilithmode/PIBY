@@ -116,9 +116,9 @@ label setup_minervas:
 
     "Your desperation outweighs your patience."
 
-    t "did you guys have anything for lunch"
+    t "did you guys have anything for lunch?"
 
-    dd "food. or. do i even eat"
+    dd "food. or. do i even eat?"
 
     pm "Are your intentions pure? What is the world like? Will you take care of me? Please take me under your care."
 
@@ -171,7 +171,7 @@ label setup_minervas:
 
     # bug looking through the thesaurus
 
-    b "Thank you thesaurus. I knew I could rely on you."
+    b "Thank you, computer. I knew I could rely on you."
 
     b "Doldrums can work here. I'm starting to think she doesn't like this role of hers on the computer."
 
