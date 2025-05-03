@@ -110,11 +110,29 @@ screen say(who, what):
 
         text what id "what"
 
+#sidebar vibes
+screen dialogue_sidebar():
+    frame:
+        style "dialogue_log_frame"
+        xalign 0.0
+        yalign 0.0
+        xsize 400  # This controls the wrapping width
+        ysize 700
+        background "#1119"
 
-    ## If there's a side image, display it above the text. Do not display on the
-    ## phone variant - there's no room.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+        vbox:
+            spacing 5
+            for line in dialogue_log:
+                text line style "sidebar_text"  # Apply your text style
+
+
+# Modify the say screen to include the dialogue sidebar
+screen say(who, what):
+    window:
+        id "window"
+        text what
+
+    use dialogue_sidebar  # This shows the sidebar every time dialogue appears
 
 
 ## Make the namebox available for styling through the Character object.

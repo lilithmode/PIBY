@@ -244,7 +244,7 @@ label angry_minerva_convo:
 
     #doldrums comes through hehehe hi biz
 
-        b "hey, are you awake"
+    b "hey, are you awake"
 
     dm "oh, joy. yeah i’ve been awake."
 
@@ -298,7 +298,7 @@ label angry_minerva_convo:
 
     dm "sure. i’ll take that compliment. i’ll leave you to whatever you need to do. deep thinking or whatever. what the hell."
 
-    dm "catch ya later dork."
+    dm "catch ya later, dork."
 
     return
     
