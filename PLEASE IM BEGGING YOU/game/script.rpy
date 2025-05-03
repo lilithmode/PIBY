@@ -8,7 +8,7 @@ define am = Character("Angry Minerva")
 define dd = Character("Doldrums Minerva")
 define pm = Character("Pious Minerva")
 
-define config.say_arguments_callback = log_callbackå
+
 # The game starts here.
 
 label start:

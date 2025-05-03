@@ -1,94 +1,34 @@
-2025-05-03 19:11:48 UTC
+2025-05-03 19:29:42 UTC
 macOS-13.4-arm64-arm-64bit
 Ren'Py 8.3.7.25031702
 
 Early init took 0.03s
 Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/screens.rpy", line 126: 'wrap' is not a keyword argument or valid child of the text statement.
-    text line size 20 color "#eee" wrap True  
-                                       ^
-DPI scale factor: 1.000000
-Interface start took 0.24s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1728, 1117)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1 Max'
-Version: b'2.1 Metal - 83.1'
-Display Info: None
-Screen sizes: virtual=(1920, 1440) physical=(1259, 944) drawable=(2518, 1888)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 87.15s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-Full traceback:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-  File "style.pyx", line 390, in renpy.style.StyleCore.__setattr__
-Exception: Style property width is not known.
-
-While running game code:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-Exception: Style property width is not known.
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1728, 1117)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1 Max'
-Version: b'2.1 Metal - 83.1'
-Display Info: None
-Screen sizes: virtual=(1920, 1440) physical=(1259, 944) drawable=(2518, 1888)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 87.82s
-Loading error handling took 0.02s
-Loading script took 0.05s
+Loading script took 0.09s
 Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
 
 Full traceback:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-  File "style.pyx", line 390, in renpy.style.StyleCore.__setattr__
-Exception: Style property width is not known.
+  File "game/script.rpy", line 25, in script
+    define config.say_arguments_callback = log_callback
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 2248, in execute
+    self.set()
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 2262, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 25, in <module>
+    define config.say_arguments_callback = log_callback
+NameError: name 'log_callback' is not defined
 
 While running game code:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-Exception: Style property width is not known.
+  File "game/script.rpy", line 25, in script
+    define config.say_arguments_callback = log_callback
+  File "game/script.rpy", line 25, in <module>
+    define config.say_arguments_callback = log_callback
+NameError: name 'log_callback' is not defined
 DPI scale factor: 1.000000
-Interface start took 0.10s
+Interface start took 0.26s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1728, 1117)
@@ -101,298 +41,34 @@ Display Info: None
 Screen sizes: virtual=(1920, 1440) physical=(1259, 944) drawable=(2518, 1888)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 88.27s
-Loading error handling took 0.02s
-Loading script took 0.05s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-Full traceback:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-  File "style.pyx", line 390, in renpy.style.StyleCore.__setattr__
-Exception: Style property width is not known.
-
-While running game code:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-Exception: Style property width is not known.
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1728, 1117)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1 Max'
-Version: b'2.1 Metal - 83.1'
-Display Info: None
-Screen sizes: virtual=(1920, 1440) physical=(1259, 944) drawable=(2518, 1888)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 179.70s
+Early init took 78.54s
 Loading error handling took 0.02s
 Loading script took 0.13s
 Loading save slot metadata took 0.01s
 Loading persistent took 0.00s
-
-Full traceback:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-  File "style.pyx", line 390, in renpy.style.StyleCore.__setattr__
-Exception: Style property width is not known.
-
-While running game code:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-Exception: Style property width is not known.
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/nichosantos/Library/RenPy/backups/PLEASE IM BEGGING YOU':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
 DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1728, 1117)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1 Max'
-Version: b'2.1 Metal - 83.1'
-Display Info: None
-Screen sizes: virtual=(1920, 1440) physical=(1259, 944) drawable=(2518, 1888)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 180.23s
-Loading error handling took 0.02s
-Loading script took 0.05s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-Full traceback:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-  File "style.pyx", line 390, in renpy.style.StyleCore.__setattr__
-Exception: Style property width is not known.
-
-While running game code:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-Exception: Style property width is not known.
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1728, 1117)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1 Max'
-Version: b'2.1 Metal - 83.1'
-Display Info: None
-Screen sizes: virtual=(1920, 1440) physical=(1259, 944) drawable=(2518, 1888)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 183.97s
-Loading error handling took 0.02s
-Loading script took 0.05s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-Full traceback:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-  File "style.pyx", line 390, in renpy.style.StyleCore.__setattr__
-Exception: Style property width is not known.
-
-While running game code:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-Exception: Style property width is not known.
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1728, 1117)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1 Max'
-Version: b'2.1 Metal - 83.1'
-Display Info: None
-Screen sizes: virtual=(1920, 1440) physical=(1259, 944) drawable=(2518, 1888)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 184.46s
-Loading error handling took 0.02s
-Loading script took 0.05s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-Full traceback:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-  File "style.pyx", line 390, in renpy.style.StyleCore.__setattr__
-Exception: Style property width is not known.
-
-While running game code:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-Exception: Style property width is not known.
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1728, 1117)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1 Max'
-Version: b'2.1 Metal - 83.1'
-Display Info: None
-Screen sizes: virtual=(1920, 1440) physical=(1259, 944) drawable=(2518, 1888)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 185.02s
-Loading error handling took 0.02s
-Loading script took 0.05s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-Full traceback:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-  File "style.pyx", line 390, in renpy.style.StyleCore.__setattr__
-Exception: Style property width is not known.
-
-While running game code:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-Exception: Style property width is not known.
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1728, 1117)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1 Max'
-Version: b'2.1 Metal - 83.1'
-Display Info: None
-Screen sizes: virtual=(1920, 1440) physical=(1259, 944) drawable=(2518, 1888)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 185.48s
-Loading error handling took 0.02s
-Loading script took 0.05s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-Full traceback:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-  File "style.pyx", line 390, in renpy.style.StyleCore.__setattr__
-Exception: Style property width is not known.
-
-While running game code:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-Exception: Style property width is not known.
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1728, 1117)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1 Max'
-Version: b'2.1 Metal - 83.1'
-Display Info: None
-Screen sizes: virtual=(1920, 1440) physical=(1259, 944) drawable=(2518, 1888)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 185.92s
-Loading error handling took 0.02s
-Loading script took 0.05s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-Full traceback:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-  File "style.pyx", line 390, in renpy.style.StyleCore.__setattr__
-Exception: Style property width is not known.
-
-While running game code:
-  File "game/mechanics/styles.rpy", line 8, in script
-    init python:
-  File "game/mechanics/styles.rpy", line 15, in <module>
-    style.sidebar_text.width = 380  # Define width for wrapping
-Exception: Style property width is not known.
-DPI scale factor: 1.000000
-Interface start took 0.10s
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.19s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1728, 1117)
