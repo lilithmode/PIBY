@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/02_minervas_mym.rpy", line 28: expected statement.
-    else:
-        ^
+File "game/03_minerva_f2f.rpy", line 193: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    pm "...what?"
+    ^
+
+File "game/03_minerva_f2f.rpy", line 220: end of line expected.
+    t "minerva, it’s okay! you’re just psyching yourself out, you" style "unsent_text"
+                                                                   ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Sat Apr 26 00:20:34 2025
+Fri May  2 20:40:25 2025
