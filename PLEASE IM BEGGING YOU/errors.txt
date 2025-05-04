@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 3: invalid syntax
-    define config.default_text_cps = 30  
-            ^
+File "game/script.rpy", line 5: expected statement.
+    from typing_sfx_functions import typing_sounds
+                                                  ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Sat May  3 16:01:15 2025
+Sat May  3 23:48:31 2025
