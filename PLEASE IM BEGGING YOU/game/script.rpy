@@ -1,5 +1,7 @@
 ﻿# The script of the game goes in this file.
-
+init python:
+    config.default_text_cps = 30  # adjust to your taste
+    
 define f = Character("Ferryman")
 define b = Character("Bug")
 define t = Character("Terminal (Bug)")
@@ -7,7 +9,6 @@ define e = Character("Elle")
 define am = Character("Angry Minerva")
 define dd = Character("Doldrums Minerva")
 define pm = Character("Pious Minerva")
-
 
 # The game starts here.
 

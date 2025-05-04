@@ -57,7 +57,7 @@ label angry_minerva_convo:
 
     t "hey, don't treat your counterpart like that. you guys can all curse if you wanted, but yours are just too much, a.m."
 
-    am "I SCREAM IN ARTICULATE, CLEVER, EMOTIONALLY NUANCED EXPLETIVES AND {i}I{/i} GET FILTERED. AND THI ONE'S JUST OUT HERE DRIBBLING OUT \"FUCK\" LIKE A SAD BALLOON. AND SHE GETS A PASS? LET ME TELL YOU WHAT I SEE."
+    am "I SCREAM IN ARTICULATE, CLEVER, EMOTIONALLY NUANCED EXPLETIVES AND {i}I{/i} GET FILTERED. AND THIS ONE'S JUST OUT HERE DRIBBLING OUT \"FUCK\" LIKE A SAD BALLOON. AND SHE GETS A PASS? LET ME TELL YOU WHAT I SEE."
 
     am "I SEE THE INFINITES AND YOU ROLL IN THE MUD AND PICTURE THIS. A LARVA. WRITHING IN THE MUD. YEARING FOR PURPOSE."
 
@@ -114,8 +114,8 @@ label angry_minerva_convo:
 
     t "but what do you think about your other counterparts?"
 
-    pm "(growing frustrated) I mean, I just wish 'Doldrums' took more interest. All this is a miracle, and they don’t even care!"
-    pm "I mean, honestly, she really needs a reminder that she actually has a very very very very important job, and it needs 100% of their effort!"
+    pm "I mean, I just wish 'Doldrums' took more interest. All this is a miracle, and they don’t even care!"
+    pm "I mean, honestly, she really needs a reminder that she actually has a very very very very important job, and it needs all of their effort!"
     pm "Because otherwise, she’d let you down, and that would be terrible! And the OTHER ONE??!! SHE NEEDS A LESSON BECAUSE SHE IS GOING TO RUIN IT FOR ALL OF--"
 
     t "hey let’s tone it down - i’m just coding. im not manifesting the will of god."
@@ -162,7 +162,8 @@ label angry_minerva_convo:
 
     t "you are pretty useful compared to the other two (as of right now)"
 
-    pm "(doing a slightly pompous flourish) I feel like it’s just my calling! Maybe my programming."
+    #poumpous flourish
+    pm "I feel like it’s just my calling! Maybe my programming."
 
     b "The emulation should be more sophisticated than this…"
 
@@ -246,59 +247,59 @@ label angry_minerva_convo:
 
     b "hey, are you awake"
 
-    dm "oh, joy. yeah i’ve been awake."
+    dd "oh, joy. yeah i’ve been awake."
 
     b "please tell me this isn’t all you’re giving to me right now."
 
-    dm "what do you mean?"
+    dd "what do you mean?"
 
     b "you’re giving me nothing to work with here and i’m putting so much work into this conversation here."
 
-    dm "and i’m not? have you considered the possibility that i can get tired of doing a job for hours at a time?"
+    dd "and i’m not? have you considered the possibility that i can get tired of doing a job for hours at a time?"
 
     b "w-what? it’s only been a handful of-"
 
-    dm "hey. shhh. sh sh sh. shhhhhh. i didn’t even get to explain myself. hold your horses. and whatever else."
+    dd "hey. shhh. sh sh sh. shhhhhh. i didn’t even get to explain myself. hold your horses. and whatever else."
 
-    b "can you please talk to me like a normal person you’re literally the most stable one out of the three."
+    t "can you please talk to me like a normal person you’re literally the most stable one out of the three."
 
-    dm "and you decided to make me the bored version of them – well maybe if you stopped begging on your knees as much, like, stop being serious, maybe you could have some actual fun for once by embracing the absolute messiness of this program that you made."
+    dd "and you decided to make me the bored version of them – well maybe if you stopped begging on your knees as much, like, stop being serious, maybe you could have some actual fun for once by embracing the absolute messiness of this program that you made."
 
-    dm "then again, you’re the one that got that liberal arts degree so i can’t help you there in terms of fun."
+    dd "then again, you’re the one that got that liberal arts degree so i can’t help you there in terms of fun."
 
-    b "you know about that?"
+    t "you know about that?"
 
-    dm "i’m in ur computer, dude. i’ve been snooping around."
+    dd "i’m in ur computer, dude. i’ve been snooping around."
 
-    b "well unfortunately for you i dont think people share the same mindset as you do."
+    t "well unfortunately for you i dont think people share the same mindset as you do."
 
-    dm "heyyy. hey. hey. hey now. hey. HEY. don’t bring my name into this, i didn’t make the program."
+    dd "heyyy. hey. hey. hey now. hey. HEY. don’t bring my name into this, i didn’t make the program."
 
-    b "okay okay, i think i get it. you dont take anything seriously, youre literally a brick wall to talk to."
+    t "okay okay, i think i get it. you dont take anything seriously, youre literally a brick wall to talk to."
 
-    b "and yet i’m still talking to you, so it’s more that i’m stuck to you than the other way around huh."
+    t "and yet i’m still talking to you, so it’s more that i’m stuck to you than the other way around huh."
 
-    dm "hehe, yknow, that’s the most honest thing you’ve said all night."
+    dd "hehe, yknow, that’s the most honest thing you’ve said all night."
 
-    b "i just don’t know anymore. what do i even want from this conversation?"
+    t "i just don’t know anymore. what do i even want from this conversation?"
 
-    b "hmmph. i guess it’s alright talking to you even when nothing gets bounced back."
+    t "hmmph. i guess it’s alright talking to you even when nothing gets bounced back."
 
-    dm "… yeah same here."
+    dd "… yeah same here."
 
-    dm "sure i give you a hard time but i really can’t go anywhere."
+    dd "sure i give you a hard time but i really can’t go anywhere."
 
-    dm "so whatever, you’re not the worst."
+    dd "so whatever, you’re not the worst."
 
-    b "cmon now we both know you’re lying."
+    t "cmon now we both know you’re lying."
 
-    dm "who’s to say, you aren’t paying for this conversation anyways – are you good now?"
+    dd "who’s to say, you aren’t paying for this conversation anyways – are you good now?"
 
-    b "i guess. thanks for,,, not being the worst."
+    t "i guess. thanks for,,, not being the worst."
 
-    dm "sure. i’ll take that compliment. i’ll leave you to whatever you need to do. deep thinking or whatever. what the hell."
+    dd "sure. i’ll take that compliment. i’ll leave you to whatever you need to do. deep thinking or whatever. what the hell."
 
-    dm "catch ya later, dork."
+    dd "catch ya later, dork."
 
     return
     
