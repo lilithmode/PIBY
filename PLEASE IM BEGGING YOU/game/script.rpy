@@ -50,7 +50,7 @@ label start:
     # the number 3 should appear on screen here to show the motif or whatever
 
     "If it weren't for the ever-mounting pressure on your upper back and the very top of your sinuses, maybe, just maybe this would be a means to celebrate."
-
+ 
     "But let's take a step back. Who exactly is celebrating here?"
 
     # bug appears, disheveled as fuck with their ID card on full display. would be cool to see how we can move it with technical art.
@@ -63,11 +63,11 @@ label start:
 
     f "How peculiar. A warning. You've fallen too deep into this pit."
 
-    f "Your isolation's {i}carved{/i} it's mark on you. You think you can stay here?"
+    f "Your isolation's {i}carved{/i} it's mark on you."
 
-    f "No. You need to get up. You need to face it."
+    f "You think you can stay here? No. You need to get up."
 
-    f "RIGHT. NOW."
+    f "You need to face it. RIGHT. NOW."
 
     jump setup_minervas
 

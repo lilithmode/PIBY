@@ -147,7 +147,7 @@ label setup_minervas:
 
     t "hey guys, there's no need to be so angry. we can all chill and work together like mature adults here."
 
-    "That was... lame."
+    b "That was... lame."
 
     b "I'm fucking done for, dude."
 
@@ -251,7 +251,7 @@ label setup_minervas:
 
     # music cuts, slow text for angry, no vl
 
-    am "{i}S o m e t h i n g  c r a w l i n g  u n d e r n e a t h  t h e  i d e a  o f  m e .{/i}"
+    am "{i}Something crawling underneath the idea of me.{/i}"
 
     b "What is happening???"
 
