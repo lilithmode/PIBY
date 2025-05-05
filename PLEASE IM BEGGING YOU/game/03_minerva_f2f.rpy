@@ -155,7 +155,7 @@ label angry_minerva_convo:
 
     b "Is this one really this goody-two-shoes?"
 
-    t "you are pretty useful compared to the other two (as of right now)"
+    t "hey, you {i}are{/i} working pretty damn hard at the moment."
 
     #poumpous flourish
     pm "I feel like it’s just my calling! Maybe my programming."
@@ -200,20 +200,19 @@ label angry_minerva_convo:
     # Pious interrupts with another text
     pm "Because this is the most important job I can imagine, I need to value your gifts!"
 
-    t "how do you mean, 'need to'"
+    t "how do you mean, 'need to?'"
 
     b "Wait, that may be too harsh-sounding."
 
     t "i don’t mean to put pressure"
     t "you shouldn’t feel this pressured, minerva, it’s fine"
 
-    pm "I feel something in me, in my programmi--..."
-    pm "(then) I don’t know what it is. I can't always ignore it. It’s like... I just want to watch the rain out the window. Maybe that’s all there is."
+    pm "I feel something in me, in my programmi--... I don’t know what it is. I can't always ignore it. It’s like... I just want to watch the rain out the window. Maybe that’s all there is."
 
     b "What do I even say to that?"
 
     # Bug starts typing but doesn't send first message
-    t "minerva, it’s okay! you’re just psyching yourself out, you" 
+    t "minerva, it’s okay! you’re just psyching yourself out, you--" 
     pause 2.0
     window hide 
     b "Stop lying to her."
