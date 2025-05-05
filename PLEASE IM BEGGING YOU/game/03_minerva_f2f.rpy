@@ -296,6 +296,12 @@ label angry_minerva_convo:
 
     dd "catch ya later, dork."
 
-    return
+    #the power cuts out and the computer accidentally resets itself (demo)
+    #the computer turns on when power comes back
+
+    t "minerva. MINERVA. where did you go??"
+
+
+    jump demo_ending
     
 
