@@ -28,7 +28,10 @@ init python:
             renpy.sound.stop(channel="sound")
             
 define f = Character("Ferryman")
-define b = Character("Bug")
+define b = Character("Bug", image = "bug")
+
+image side bug = "images/side bug neutral.png"
+
 define t = Character("Terminal (Bug)", callback=typing_sounds)
 define e = Character("Elle")
 define am = Character("Angry Minerva")
@@ -43,6 +46,8 @@ label start:
 
     f "You can try to flee from the chill. But the cold's in your bones now."
 
+    b "hey i'm testing this still"
+
     f "No matter how far you go, it'll {i}{b}always{/b}{/i} find a way in."
 
     "A hum. A dimly lit screen. A sign of life."
@@ -54,7 +59,7 @@ label start:
     "But let's take a step back. Who exactly is celebrating here?"
 
     # bug appears, disheveled as fuck with their ID card on full display. would be cool to see how we can move it with technical art.
-    
+
     "Holy shit."
 
     f "Just look at yourself. You see the wreckage."
