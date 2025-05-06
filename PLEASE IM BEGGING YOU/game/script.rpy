@@ -34,7 +34,7 @@ image side bug = "images/side bug neutral.png"
 
 define t = Character("Terminal (Bug)", callback=typing_sounds)
 define e = Character("Elle")
-define am = Character("Angry Minerva")
+define am = Character("Angry Minerva", image = "angry")
 define dd = Character("Doldrums Minerva")
 define pm = Character("Pious Minerva")
 
@@ -46,6 +46,7 @@ label start:
 
     f "You can try to flee from the chill. But the cold's in your bones now."
 
+    show pious what 
     b "hey i'm testing this still"
 
     f "No matter how far you go, it'll {i}{b}always{/b}{/i} find a way in."
