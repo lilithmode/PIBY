@@ -155,7 +155,7 @@ label angry_minerva_convo:
 
     b "Is this one really this goody-two-shoes?"
 
-    t "you are pretty useful compared to the other two (as of right now)"
+    t "hey, you {i}are{/i} working pretty damn hard at the moment."
 
     #poumpous flourish
     pm "I feel like it’s just my calling! Maybe my programming."
@@ -200,30 +200,29 @@ label angry_minerva_convo:
     # Pious interrupts with another text
     pm "Because this is the most important job I can imagine, I need to value your gifts!"
 
-    t "how do you mean, 'need to'"
+    t "how do you mean, 'need to?'"
 
     b "Wait, that may be too harsh-sounding."
 
     t "i don’t mean to put pressure"
     t "you shouldn’t feel this pressured, minerva, it’s fine"
 
-    pm "I feel something in me, in my programmi--..."
-    pm "(then) I don’t know what it is. I can't always ignore it. It’s like... I just want to watch the rain out the window. Maybe that’s all there is."
+    pm "I feel something in me, in my programmi--... I don’t know what it is. I can't always ignore it. It’s like... I just want to watch the rain out the window. Maybe that’s all there is."
 
     b "What do I even say to that?"
 
     # Bug starts typing but doesn't send first message
-    t "minerva, it’s okay! you’re just psyching yourself out, you" 
+    t "minerva, it’s okay! you’re just psyching yourself out, you--" 
     pause 2.0
     window hide 
-    b "Stop lying to her."
+    "Stop lying to her."
 
     # Bug deletes and tries again
-    t "(doesn’t send) minerva, where are you getting this idea from"
+    t "minerva, where are you getting this idea from"
     "You know where it comes from."
 
     # Bug deletes again and finally sends
-    t "minerva, you’re doing great. don’t worry about it!"
+    t "listen minerva, you’re doing great. don’t worry about it."
 
     # Pious responds
     pm "Really?? You really really think so? Aw thank you, thank you so so much!"
@@ -240,19 +239,19 @@ label angry_minerva_convo:
 
     #doldrums comes through hehehe hi biz
 
-    b "hey, are you awake"
+    t "hey, are you awake"
 
     dd "oh, joy. yeah i’ve been awake."
 
-    b "please tell me this isn’t all you’re giving to me right now."
+    t "please tell me this isn’t all you’re giving to me right now."
 
     dd "what do you mean?"
 
-    b "you’re giving me nothing to work with here and i’m putting so much work into this conversation here."
+    t "you’re giving me nothing to work with here and i’m putting so much work into this conversation here."
 
     dd "and i’m not? have you considered the possibility that i can get tired of doing a job for hours at a time?"
 
-    b "w-what? it’s only been a handful of-"
+    t "w-what? it’s only been a handful of-"
 
     dd "hey. shhh. sh sh sh. shhhhhh. i didn’t even get to explain myself. hold your horses. and whatever else."
 

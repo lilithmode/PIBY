@@ -1,0 +1,58 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Ren'Py generated files and directories
+saves/
+tmp/
+cache/
+dl/
+*.pyc
+*.rpymc
+*.log
+
+# Platform-specific build artifacts
+renios*
+rapt*
+web*
+module/build
+module/dist
+module/emscripten-static
+
+# Documentation build artifacts
+sphinx/source/inc
+sphinx/source/thequestion.rst
+
+#Other files
+.env
+
+# Temporary auto-generated Android Assets
+**/[Aa]ssets/[Ss]treamingAssets/aa.meta
+**/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+PLEASE IM BEGGING YOU/game/.DS_Store
+PLEASE IM BEGGING YOU/.DS_Store
+.DS_Store
+PLEASE IM BEGGING YOU/game/.DS_Store

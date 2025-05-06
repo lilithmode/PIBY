@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/mechanics/questions.rpy", line 5: 'style' is not a keyword argument or valid child of the screen statement.
-    style terminal_header is terminal_text:
-         ^
+File "game/script.rpy", line 46: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    b wtf "hey i'm testing this still"
+    ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Sun May  4 21:24:26 2025
+Mon May  5 01:57:46 2025

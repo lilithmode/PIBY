@@ -1,26 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 2, in script
-    init python:
-  File "game/script.rpy", line 5, in <module>
-    from typing_sfx_functions import typing_sounds
-ModuleNotFoundError: No module named 'typing_sfx_functions'
+  File "game/script.rpy", line 49, in script
+    bug "hey i'm testing this still"
+Exception: Sayer 'bug' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 2, in script
-    init python:
-  File "/Users/cswen29/DRAWER/renpy-8.3.7-sdk/renpy/ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/cswen29/DRAWER/renpy-8.3.7-sdk/renpy/python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 5, in <module>
-    from typing_sfx_functions import typing_sounds
-ModuleNotFoundError: No module named 'typing_sfx_functions'
+  File "game/script.rpy", line 49, in script
+    bug "hey i'm testing this still"
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 2586, in execute
+    Say.execute(self)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'bug' is not defined.
 
-macOS-15.4.1-arm64-arm-64bit arm64
+macOS-13.4-arm64-arm-64bit arm64
 Ren'Py 8.3.7.25031702
 PLEASE IM BEGGING YOU 1.0
-Sat May  3 23:44:33 2025
+Mon May  5 02:02:28 2025
