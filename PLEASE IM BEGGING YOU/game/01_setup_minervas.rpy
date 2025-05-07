@@ -32,7 +32,8 @@ label setup_minervas:
 #have each of the sprites pop up here for each test <3 thanks guys i love you
 
 # maybe have the names for each of these sprites be temp "Type X, Y, etc." for this scene only
-
+    show doldrums neutral:
+        ease 0.5 yalign 0.95 xalign 0.5
     dd "ur asking for my take? uhhhhhh i mean, anything works i feel."
 
     b "Works. Test 2."

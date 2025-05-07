@@ -46,7 +46,6 @@ label start:
 
     f "You can try to flee from the chill. But the cold's in your bones now."
 
-    show pious what 
     b "hey i'm testing this still"
 
     f "No matter how far you go, it'll {i}{b}always{/b}{/i} find a way in."
