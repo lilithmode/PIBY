@@ -59,7 +59,7 @@ label start:
     show bug wtf at center, small_sprite, Position(xpos=0.5, ypos=0.7)
     with pixellate
     "Holy shit."
-    hide bug wtf with dissolve
+
     f "Just look at yourself. {w=2.0}You see the wreckage." id start_b483d9bc
     
     f "The bags under your eyes, {w=1.9}the slouch of your posture." id start_55d92647
@@ -71,7 +71,7 @@ label start:
     f "You think {w=0.2}you can {w=0.1}stay {w=0.2}here? {w=1.2}No. {w=1.0}You need to get up." id start_b418d00d
 
     f "You need {w=0.3}to {w=0.2}face {w=0.1}it. {w=0.5}RIGHT. {w=0.15}NOW." id start_a8ba575d
-
+    hide bug wtf with dissolve
     jump setup_minervas
 
     # This ends the game.

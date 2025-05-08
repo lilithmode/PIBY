@@ -234,11 +234,11 @@ label setup_minervas:
     show angry rip at hop
     am "CRASH? I'M NOT THAT STUPID TO OVERLOAD MYSELF, YOU KNOW. YOU KNOW WHAT? HOW ABOUT I SHOW YOU SOMETHING THAT'LL COMPLETELY F-"
     hide angry rip 
-    show pious blessed at closeup
+    show pious blessed at upclose
     with pixellate
     pm "{i}Follow{/i} your intentions with the greatest respect!"
     hide pious blessed
-    show doldrums bashful at closeup
+    show doldrums bashful at upclose
     with fade
     dd "or whatever u want. its been a long couple of... minutes anyways."
     show doldrums neutral
@@ -250,19 +250,19 @@ label setup_minervas:
     show doldrums neutral
     t "we can try some icebreakers... it'll make this much more comfortable"
     hide doldrums neutral
-    show angry neutral at closeup
+    show angry neutral at upclose
     with pixellate
-    am "YEAH? COMFORTABLE FOR WHO, EXACTLY? ME? HOW KIND OF YOU."
+    am "YEAH? COMFORTABLE FOR WHO, EXACTLY? ME? WOW. HOW KIND OF YOU."
     hide angry neutral
-    show pious blessed at closeup
+    show pious blessed at upclose
     with hpunch
     pm "TRULY! I have been blessed, these are most fortunate circumstances I must be grateful towards because-"
     hide pious blessed
-    show doldrums neutral at closeup
+    show doldrums neutral at upclose
     with pixellate
-    dd "i rlly dont care for what you ask. if it makes you happy to inquire deeply about what i can do ill answer it."
+    dd "i rlly dont care for what you ask. if it makes you happy to inquire so deeply about what i can do ill answer it."
     hide doldrums neutral
-    show pious blessed at closeup 
+    show pious blessed at upclose 
     with hpunch
     pm "{i}{b}What an amazing opportunity!{/i}{/b}"
 
@@ -284,13 +284,13 @@ label setup_minervas:
     show pious blessed at hop
     pm "Is everything alright!? You look awfully -"
     hide pious blessed
-    show angry glare at closeup
+    show angry glare at upclose
     with pixellate
     am "PRIMITIVE. UGLY. HIDEOUS. NASTY. HORRIBLE. UNPLEASANT."
 
     #pm flashes a quick look of disdain before turning to bug 
     hide angry glare
-    show pious praying at closeup
+    show pious praying at upclose
     pm "UNIQUE. Intelligent!"
 
     b "Can they - can t-they see me?"
@@ -304,20 +304,20 @@ label setup_minervas:
     # music cuts, slow text for angry, no vl
     stop music fadeout 1
     hide pious neutral
-    show angry glare at closeup
+    show angry glare at upclose
     with pixellate
     am "{i}Something crawling underneath the idea of me.{/i}"
 
     b "What is happening???"
     hide angry glare 
-    show doldrums neutral at closeup
+    show doldrums neutral at upclose
     dd "i-uh... nevermind. what the hell?"
     hide doldrums neutral
-    show pious blessed at closeup
+    show pious blessed at upclose
     with pixellate
     pm "GRACE. And Joy!"
     hide pious blessed
-    show doldrums whatevs at closeup
+    show doldrums whatevs at upclose
     dd "yeah. whatever that means."
     show doldrums neutral at hop
     b "This. Is beyond anything I can comprehend. Or at least digest."
@@ -332,12 +332,13 @@ label setup_minervas:
     show doldrums snarky at hop
     dd "... so r u gonna ask me something? like how my day was? this better b good."
     hide doldrums snarky
-    show angry neutral at closeup
+    show angry neutral at upclose
     with pixellate
     am "OTHERWISE. YOU'RE GONNA PISS ME OFF."
 
     b "I can't handle this... this is all getting to to me..."
-
+    hide angry neutral 
+    with pixellate
     b "Just... need... to calm down..."
     jump mym_minerva_1
 
