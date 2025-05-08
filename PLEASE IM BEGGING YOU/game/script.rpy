@@ -47,7 +47,8 @@ label start:
 
     f "No matter {w=0.1}how {w=0.1}far {w=0.2}you go,{w=1.5} it'll {i}{b}always{/b}{/i} {w=0.5}find a way in." id start_c5d441f2
 
-    "A hum. A dimly lit screen. A sign of life."
+    play sound "audio/_sfx_gen/SFX_ElectricityHum.mp3"
+    "A hum. A dimly lit screen. A sign of life." 
 
     # the number 3 should appear on screen here to show the motif or whatever
 
