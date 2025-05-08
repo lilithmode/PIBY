@@ -43,7 +43,7 @@ label start:
 
 #shit i think we need a background for this. thankfully it's only black.
 
-    f "You can try to flee from the chill. But the cold's in your bones now." id start_dfa79694
+    f "You can try to flee from the chill.{p=2.0}But{w=0.3} the cold's in your bones now." id start_dfa79694
 
     f "No matter how far you go, it'll {i}{b}always{/b}{/i} find a way in." id start_c5d441f2
 
