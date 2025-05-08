@@ -8,6 +8,8 @@ label setup_minervas:
 
     b nervous "What the... this was supposed to work. I don't understand."
 
+    play sound "audio/_sfx_gen/SFX_ElectricityHum_short.mp3"
+    queue sound "audio/_sfx_gen/Bfxr_flicker.mp3"
     "A hum, then a flicker. Something along the lines of a digital interpretation of cave art greets your eyes."
 
     "There's no way this works, right? What other options do you have left?"
@@ -28,6 +30,7 @@ label setup_minervas:
 
     b "Finally, some time for diagnostics. This shouldn't take long. Please. Don't fail me now."
 
+    play sound "audio/_sfx_gen/SFX_Mouse_Click.mp3" volume 0.5
     "*click*"
 
 #have each of the sprites pop up here for each test <3 thanks guys i love you
@@ -40,18 +43,21 @@ label setup_minervas:
 
     b "Works. Test 2."
 
+    play sound "audio/_sfx_gen/SFX_Mouse_Click.mp3" volume 0.5
     "*click*"
     show doldrums whatevs at hop
     dd "whatever."
     
     b "Okay. I think we all know how this works now. Let's keep going."
 
+    play sound "audio/_sfx_gen/SFX_Mouse_Click.mp3" volume 0.5
     "*click*"
     show doldrums bashful at hop
     dd "i rlly dont care."
     hide doldrums bashful with pixellate
     b "Type A is operational. Onto Type B."
 
+    play sound "audio/_sfx_gen/SFX_Mouse_Click.mp3" volume 0.5
     "*click*"
 
     #configure live translation here when we have time. yes it's fine. i just didn't think it would be chinese. that's all.
@@ -62,6 +68,7 @@ label setup_minervas:
 
     b "Sick. I don't know what this one might be like... like a caretaker maybe? ... Weird."
 
+    play sound "audio/_sfx_gen/SFX_Mouse_Click.mp3" volume 0.5
     "*click*"
 
     show pious blessed at hop
@@ -69,6 +76,7 @@ label setup_minervas:
 
     b "What. Okay?? Works."
 
+    play sound "audio/_sfx_gen/SFX_Mouse_Click.mp3" volume 0.5
     "*click*"
     show pious praying at hop
     pm "You do so much for me. I'm so grateful."
@@ -77,11 +85,13 @@ label setup_minervas:
 
     b "Last one. Type C. Don't disappoint me."
 
+    play sound "audio/_sfx_gen/SFX_Mouse_Click.mp3" volume 0.5
     "*click*"
     show angry hair at upclose
     with pixellate
     am "YOU ARE A DEMON. YOU ARE AN EVIL THAT CANNOT-"
     hide angry hair with pixellate
+    play sound "audio/_sfx_gen/SFX_Mouse_Click_Hard.mp3" volume 0.5
     "*CLICK*"
 
     b "Works. I don't feel like testing this one further."
