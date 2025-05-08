@@ -60,7 +60,7 @@ label setup_minervas:
 
     pm "How are you? I hope your day went well. How was work?"
 
-    b "Sick. I don't know what this one might be like... like a caretaker maybe? OH. Maybe even a nanny version... Weird."
+    b "Sick. I don't know what this one might be like... like a caretaker maybe? ... Weird."
 
     "*click*"
 
@@ -126,10 +126,10 @@ label setup_minervas:
     t "did you guys have anything for lunch?"
     show doldrums snarky at hop, 
     dd "food. or. do i even eat?"
-    hide doldrums snarky
-    show pious neutral at upclose 
-    with hpunch
-    pm "Are your intentions pure? What is the world like? Will you take care of me? Please take me under your care."
+    # hide doldrums snarky
+    # show pious neutral at upclose 
+    # with hpunch
+    # pm "Are your intentions pure? What is the world like? Will you take care of me? Please take me under your care." id setup_minervas_b128efaa
 
     b "YES. MINERVA! You actually work now! Oh my God, I can't believe this is..."
 
@@ -146,7 +146,7 @@ label setup_minervas:
 
     t "are you almost done yet"
 
-    hide pious neutral with pixellate
+    # hide pious neutral with pixellate
     show doldrums bashful at upclose
     with hpunch
     dd "im trying to prepare everything i can just for u - cant u pontificate that im getting ready?"
