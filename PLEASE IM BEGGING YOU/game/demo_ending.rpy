@@ -7,7 +7,7 @@ default questionnaire_answers = {
 }
 #the room goes dark. the minervas are nowhere to be found
 t "hello?"
-
+hide minervaroom with pixellate
 t "..."
 
 t "guys, hello?"
@@ -31,7 +31,7 @@ b "I want to go to bed..."
 b "I really thought this would be the batch..."
 
 b "Back to the questionnaire."
-
+play music ""
 label end_of_demo:
     call screen questionnaire_screen
 "Maybe you'll get it next time, Bug."

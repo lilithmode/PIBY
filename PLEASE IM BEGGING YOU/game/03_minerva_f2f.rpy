@@ -236,31 +236,31 @@ label angry_minerva_convo:
     t "hey minerva, could you bring your third counterpart? i gotta check on her as well."
     show pious neutral at hop
     pm "Oh of course! You are so gracious, taking care of us ALL!"
-
+    hide pious neutral with dissolve
     #pious fades into the background, letting room for doldrums to walk in
     show doldrums neutral at upclose 
     with pixellate
-    play music "audio/_music/doldrums.mp3"
+    play music "audio/_music/doldrums.mp3" volume 0.3
     t "hey, are you awake"
-
+    show doldrums whatevs at hop
     dd "oh, joy. yeah i’ve been awake."
 
     t "please tell me this isn’t all you’re giving to me right now."
-
+    show doldrums neutral at hop
     dd "what do you mean?"
 
     t "you’re giving me nothing to work with here and i’m putting so much work into this conversation here."
-
+    show doldrums snarky at hop
     dd "and i’m not? have you considered the possibility that i can get tired of doing a job for hours at a time?"
 
     t "w-what? it’s only been a handful of-"
-
+    show doldrums whatevs at hop
     dd "hey. shhh. sh sh sh. shhhhhh. i didn’t even get to explain myself. hold your horses. and whatever else."
 
     t "can you please talk to me like a normal person you’re literally the most stable one out of the three."
-
+    show doldrums snarky at hop
     dd "and you decided to make me the bored version of them – well maybe if you stopped begging on your knees as much, like, stop being serious, maybe you could have some actual fun for once by embracing the absolute messiness of this program that you made."
-
+    show doldrums whatevs at hop
     dd "then again, you’re the one that got that liberal arts degree so i can’t help you there in terms of fun."
 
     t "you know about that?"
@@ -268,7 +268,7 @@ label angry_minerva_convo:
     dd "i’m in ur computer, dude. i’ve been snooping around."
 
     t "well unfortunately for you i dont think people share the same mindset as you do."
-
+    show doldrums snarky at hop
     dd "heyyy. hey. hey. hey now. hey. HEY. don’t bring my name into this, i didn’t make the program."
 
     t "okay okay, i think i get it. you dont take anything seriously, youre literally a brick wall to talk to."
@@ -280,26 +280,26 @@ label angry_minerva_convo:
     t "i just don’t know anymore. what do i even want from this conversation?"
 
     t "hmmph. i guess it’s alright talking to you even when nothing gets bounced back."
-
+    show doldrums bashful at hop
     dd "… yeah same here."
-
+    show doldrums neutral at hop
     dd "sure i give you a hard time but i really can’t go anywhere."
-
+    show doldrums bashful at hop
     dd "so whatever, you’re not the worst."
 
     t "cmon now we both know you’re lying."
-
+    show doldrums snarky at hop
     dd "who’s to say, you aren’t paying for this conversation anyways – are you good now?"
 
     t "i guess. thanks for,,, not being the worst."
-
+    show doldrums snarky at hop
     dd "sure. i’ll take that compliment. i’ll leave you to whatever you need to do. deep thinking or whatever. what the hell."
-
+    show doldrums bashful at hop
     dd "catch ya later, dork."
-
+    hide doldrums bashful with pixellate
     #the power cuts out and the computer accidentally resets itself (demo)
     #the computer turns on when power comes back
-
+    stop music
     t "minerva. MINERVA. where did you go??"
 
 
