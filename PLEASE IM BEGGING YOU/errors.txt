@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 62: multiple at clauses are prohibited.
-    show bug wtf at center at small_sprite
-                             ^
+File "game/01_setup_minervas.rpy", line 208: expected 'image_name_component' not found.
+    hide
+        ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Thu May  8 01:05:00 2025
+Thu May  8 03:43:40 2025

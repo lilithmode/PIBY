@@ -22,6 +22,7 @@ label setup_minervas:
 
     "The screen jolts itself back to life. Greeted by the fruits of your labor."
     show minervaroom with pixellate
+    play music "audio/_music/computer theme.mp3" volume 0.3
 # maybe let life play out by itself by showing the visual novel?? lol it's a VISUAL novel guys. get it
     "Life. Go time."
 
@@ -91,6 +92,8 @@ label setup_minervas:
 
     "The three of them bare all of themselves (or, lack of themselves) to you. The opportunities are endless..."
 
+    show doldrums whatevs at upclose
+    with pixellate
     "It seems that Type A is playing with... a text box?"
 
     "They present it to you like a dog bringing home an unwarranted visitor in it's mouth."
@@ -98,15 +101,16 @@ label setup_minervas:
     b "Here goes nothing."
 
     t "hey."
-
+    play sound "audio/_sfx_gen/zap.mp3" volume 0.5
     "BZZZZT."
-
+    show doldrums neutral at upclose
+    with pixellate
     b "Fuck. That was too strong. Let's reel it back in."
 
     b "Uhm..."
 
     t "hi"
-
+    play sound "audio/_sfx_gen/ding.mp3" volume 0.5
     "DING!"
 
     b "That's much better."
@@ -120,9 +124,11 @@ label setup_minervas:
     "Your desperation outweighs your patience."
 
     t "did you guys have anything for lunch?"
-
+    show doldrums snarky at hop, 
     dd "food. or. do i even eat?"
-
+    hide doldrums snarky
+    show pious neutral at upclose 
+    with hpunch
     pm "Are your intentions pure? What is the world like? Will you take care of me? Please take me under your care."
 
     b "YES. MINERVA! You actually work now! Oh my God, I can't believe this is..."
@@ -140,12 +146,22 @@ label setup_minervas:
 
     t "are you almost done yet"
 
+    hide pious neutral with pixellate
+    show doldrums bashful at upclose
+    with hpunch
     dd "im trying to prepare everything i can just for u - cant u pontificate that im getting ready?"
 
+    hide doldrums bashful 
+    show angry rip at upclose
+    with hpunch
     am "SO SHUT UP AND LET ME DRIVE THE CAR FOR ONCE. STEP OFF SHITFACE, AND-"
 
-    pm "Thank you!"
+    hide angry rip
+    show pious blessed at upclose
+    with irisin
+    pm "Thank you! THANK YOU."
 
+    show pious neutral
     b "I honestly can't tell if they're finishing each other's sentences or not. They have to be a team, right?"
 
     t "hey guys, there's no need to be so angry. we can all chill and work together like mature adults here."
@@ -154,8 +170,14 @@ label setup_minervas:
 
     b "I'm fucking done for, dude."
 
+    hide pious neutral
+    show doldrums snarky at upclose
+    with dissolve
     dd "what the hell, sure."
 
+    hide doldrums snarky
+    show angry neutral at upclose
+    with hpunch
     am "YOU'D HAVE TO KILL ME MORE THAN ONCE, NO, TWICE, NO, THREE TIMES. IF YOU WANT SOMEONE LIKE ME AROUND. THIS WAS A BAD DECISION."
 
     "She's getting pretty loud, but there's definitely something to be loud about here." 
@@ -164,10 +186,13 @@ label setup_minervas:
 
     b "Then again, I didn't think it would be this extreme in personalities..."
 
+    hide angry neutral with pixellate
     "An analyzation is in order."
     
     # doldrums appears on screen
 
+    show doldrums neutral at upclose
+    with dissolve
     b "Type A... there's gotta be a word for bored somewhere."
 
     b "..."
@@ -180,6 +205,9 @@ label setup_minervas:
 
     # scroll over to angry minerva
 
+    hide doldrums neutral
+    show angry neutral at upclose
+    with pixellate
     b "This one is definitely angry. I'm not going to try to think too hard for her."
 
     b "I {i}DO{/i} have to implement a filter on her somehow... should take me 30 seconds."
@@ -188,60 +216,81 @@ label setup_minervas:
 
     b "Well that wasn't... no that was just annoying."
 
+    hide angry neutral with pixellate
+    show pious praying at upclose
+    with pixellate
     b "What's your deal Type C? What kind of person are you?"
 
     "A knocking begins. And continues to crescendo until it becomes misophonic."
 
+    hide pious praying
+    show angry head at upclose
+    with pixellate
     "Angry Minerva is throwing a TANTRUM."
-
+    show angry hair at hop
     b "No. I can't have them destroy the system. Not another time. Please."
 
     t "guys please knock it off, i can't have you crashing on me already"
-
+    show angry rip at hop
     am "CRASH? I'M NOT THAT STUPID TO OVERLOAD MYSELF, YOU KNOW. YOU KNOW WHAT? HOW ABOUT I SHOW YOU SOMETHING THAT'LL COMPLETELY F-"
-
+    hide angry rip 
+    show pious blessed at closeup
+    with pixellate
     pm "{i}Follow{/i} your intentions with the greatest respect!"
-
+    hide pious blessed
+    show doldrums bashful at closeup
+    with fade
     dd "or whatever u want. its been a long couple of... minutes anyways."
-
+    show doldrums neutral
     b "Let's just jump into it. I have to keep this conversation going before I run out of ideas."
-
+    show doldrums snarky at hop
     t "so... minerva - minerva(s)? can we try talking about something"
-
+    show doldrums whatevs at hop
     dd "whatever. what kind of shit do you want to talk about?"
-
+    show doldrums neutral
     t "we can try some icebreakers... it'll make this much more comfortable"
-
+    hide doldrums neutral
+    show angry neutral at closeup
+    with pixellate
     am "YEAH? COMFORTABLE FOR WHO, EXACTLY? ME? HOW KIND OF YOU."
-
+    hide angry neutral
+    show pious blessed at closeup
+    with hpunch
     pm "TRULY! I have been blessed, these are most fortunate circumstances I must be grateful towards because-"
-
+    hide pious blessed
+    show doldrums neutral at closeup
+    with pixellate
     dd "i rlly dont care for what you ask. if it makes you happy to inquire deeply about what i can do ill answer it."
-
+    hide doldrums neutral
+    show pious blessed at closeup 
+    with hpunch
     pm "{i}{b}What an amazing opportunity!{/i}{/b}"
 
     b "Is Type C- "
-
+    show pious praying at hop
     "Her tears start to well until the bottom of her eyes give out."
-
+    show pious blessed at hop
     "She interlocks her hands into one another, as if each finger intertwined is pleading for some sense of mercy from the tightness of the bond."
 
     "Seeking absolution. Forgiveness. Divine Intervention. Shelter."
 
-    # halo appear
+    # halo appear (this would be so funny)
 
     b "Okay. She's pious."
 
     b "What's there to worship...?"
 
     b "What the hell."
-
+    show pious blessed at hop
     pm "Is everything alright!? You look awfully -"
-
+    hide pious blessed
+    show angry glare at closeup
+    with pixellate
     am "PRIMITIVE. UGLY. HIDEOUS. NASTY. HORRIBLE. UNPLEASANT."
 
     #pm flashes a quick look of disdain before turning to bug 
-
+    hide angry glare
+    show pious praying at closeup
     pm "UNIQUE. Intelligent!"
 
     b "Can they - can t-they see me?"
@@ -249,21 +298,28 @@ label setup_minervas:
     "Your camera has been on for the longest time. That green light isn't going anywhere."
 
     t "you can see me? like - through the camera??"
-
+    show pious neutral at hop
     pm "YES. Of course! I can see more than just you as well! I can see-"
 
     # music cuts, slow text for angry, no vl
-
+    stop music fadeout 1
+    hide pious neutral
+    show angry glare at closeup
+    with pixellate
     am "{i}Something crawling underneath the idea of me.{/i}"
 
     b "What is happening???"
-
+    hide angry glare 
+    show doldrums neutral at closeup
     dd "i-uh... nevermind. what the hell?"
-
+    hide doldrums neutral
+    show pious blessed at closeup
+    with pixellate
     pm "GRACE. And Joy!"
-
+    hide pious blessed
+    show doldrums whatevs at closeup
     dd "yeah. whatever that means."
-
+    show doldrums neutral at hop
     b "This. Is beyond anything I can comprehend. Or at least digest."
 
     b "Crawling UNDERNEATH? Are they high, or something? It HAS to be something I missed before I relaunched this program."
@@ -271,11 +327,13 @@ label setup_minervas:
     b "It can't be the other ones, they don't... They don't exist anymore!"
 
     b "This has to be perfect or else this won't work for me. It'll be {i}pointless.{/i}"
-
+    show doldrums neutral at hop
     dd "..."
-
+    show doldrums snarky at hop
     dd "... so r u gonna ask me something? like how my day was? this better b good."
-
+    hide doldrums snarky
+    show angry neutral at closeup
+    with pixellate
     am "OTHERWISE. YOU'RE GONNA PISS ME OFF."
 
     b "I can't handle this... this is all getting to to me..."
