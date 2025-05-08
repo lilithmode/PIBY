@@ -1,32 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 62, in script
-    show bug wtf at small_sprite
-  File "game/script.rpy", line 62, in <module>
-    show bug wtf at small_sprite
-NameError: name 'small_sprite' is not defined
+  File "game/mechanics/styles.rpy", line 31, in script
+    define config.side_image_layer = "side"
+  File "renpy/common/000namespaces.rpy", line 34, in set
+    setattr(self.nso, name, value)
+Exception: config.side_image_layer is not a known configuration variable.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 62, in script
-    show bug wtf at small_sprite
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 1124, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 1083, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 1083, in <listcomp>
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1218, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1211, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 62, in <module>
-    show bug wtf at small_sprite
-NameError: name 'small_sprite' is not defined
+  File "game/mechanics/styles.rpy", line 31, in script
+    define config.side_image_layer = "side"
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 2248, in execute
+    self.set()
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 2266, in set
+    ns.set(self.varname, value)
+  File "renpy/common/000namespaces.rpy", line 34, in set
+    setattr(self.nso, name, value)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/defaultstore.py", line 101, in __setattr__
+    raise Exception('config.%s is not a known configuration variable.' % (name))
+Exception: config.side_image_layer is not a known configuration variable.
 
 macOS-13.4-arm64-arm-64bit arm64
 Ren'Py 8.3.7.25031702
 PLEASE IM BEGGING YOU 1.0
-Thu May  8 01:02:23 2025
+Thu May  8 01:41:19 2025

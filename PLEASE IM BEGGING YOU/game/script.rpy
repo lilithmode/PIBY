@@ -30,8 +30,8 @@ init python:
             renpy.sound.stop(channel="sound")
             
 define f = Character("Ferryman")
-define b = Character("Bug", image = "bug")
-define t = Character("Terminal (Bug)", callback=typing_sounds)
+define b = Character("Bug", image = "side bug")
+define t = Character("Terminal (Bug)", callback=typing_sounds, image = "side bug")
 define e = Character("Elle")
 define am = Character("Angry Minerva", image = "angry")
 define dd = Character("Doldrums Minerva")
@@ -61,7 +61,7 @@ label start:
     "Holy shit."
     hide bug wtf with dissolve
     f "Just look at yourself. You see the wreckage." id start_b483d9bc
-    
+
     f "The bags under your eyes, the slouch of your posture." id start_55d92647
 
     f "How peculiar. A warning. You've fallen too deep into this pit." id start_7b44d2ed

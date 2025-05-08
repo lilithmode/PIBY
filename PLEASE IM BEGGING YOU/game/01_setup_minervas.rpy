@@ -6,7 +6,7 @@ label setup_minervas:
 
     "And it stays."
 
-    b huh "What the... this was supposed to work. I don't understand."
+    b nervous "What the... this was supposed to work. I don't understand."
 
     "A hum, then a flicker. Something along the lines of a digital interpretation of cave art greets your eyes."
 
