@@ -159,7 +159,7 @@ label setup_minervas:
     hide angry rip
     show pious blessed at upclose
     with irisin
-    pm "Thank you! THANK YOU."
+    pm "Thank you! THANK YOU." id setup_minervas_06d44ff6
 
     show pious neutral
     b "I honestly can't tell if they're finishing each other's sentences or not. They have to be a team, right?"
@@ -252,7 +252,7 @@ label setup_minervas:
     hide doldrums neutral
     show angry neutral at upclose
     with pixellate
-    am "YEAH? COMFORTABLE FOR WHO, EXACTLY? ME? WOW. HOW KIND OF YOU."
+    am "YEAH? COMFORTABLE FOR WHO, EXACTLY? ME? WOW. HOW KIND OF YOU." id setup_minervas_ac231527
     hide angry neutral
     show pious blessed at upclose
     with hpunch
@@ -260,7 +260,7 @@ label setup_minervas:
     hide pious blessed
     show doldrums neutral at upclose
     with pixellate
-    dd "i rlly dont care for what you ask. if it makes you happy to inquire so deeply about what i can do ill answer it."
+    dd "i rlly dont care for what you ask. if it makes you happy to inquire so deeply about what i can do ill answer it." id setup_minervas_8e4fa39e
     hide doldrums neutral
     show pious blessed at upclose 
     with hpunch
@@ -311,14 +311,14 @@ label setup_minervas:
     b "What is happening???"
     hide angry glare 
     show doldrums neutral at upclose
-    dd "i-uh... nevermind. what the hell?"
+    dd "i-uh... nevermind. what the hell?" id setup_minervas_9dcd0f73
     hide doldrums neutral
     show pious blessed at upclose
     with pixellate
     pm "GRACE. And Joy!"
     hide pious blessed
     show doldrums whatevs at upclose
-    dd "yeah. whatever that means."
+    dd "yeah. whatever that means." id setup_minervas_9481ef03
     show doldrums neutral at hop
     b "This. Is beyond anything I can comprehend. Or at least digest."
 
