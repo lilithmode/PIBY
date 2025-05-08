@@ -21,7 +21,7 @@ label setup_minervas:
     "Silence. The thick air that follows. A pregnant pause."
 
     "The screen jolts itself back to life. Greeted by the fruits of your labor."
-
+    show minervaroom with pixellate
 # maybe let life play out by itself by showing the visual novel?? lol it's a VISUAL novel guys. get it
     "Life. Go time."
 
@@ -32,22 +32,23 @@ label setup_minervas:
 #have each of the sprites pop up here for each test <3 thanks guys i love you
 
 # maybe have the names for each of these sprites be temp "Type X, Y, etc." for this scene only
-    show doldrums neutral:
-        ease 0.5 yalign 0.95 xalign 0.5
+    show doldrums neutral at upclose
+    with pixellate
+
     dd "ur asking for my take? uhhhhhh i mean, anything works i feel."
 
     b "Works. Test 2."
 
     "*click*"
-
+    show doldrums whatevs at hop
     dd "whatever."
     
     b "Okay. I think we all know how this works now. Let's keep going."
 
     "*click*"
-
+    show doldrums bashful at hop
     dd "i rlly dont care."
-
+    hide doldrums bashful with pixellate
     b "Type A is operational. Onto Type B."
 
     "*click*"

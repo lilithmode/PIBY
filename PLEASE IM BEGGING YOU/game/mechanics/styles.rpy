@@ -4,3 +4,21 @@ init python:
     style.unsent_text.italic = True
     style.unsent_text.size = 26
     style.unsent_text.font = "DejaVuSans.ttf" 
+
+transform hop:
+    pause .15
+    yoffset 0
+    easein .175 yoffset -10
+    easeout .175 yoffset 0
+    easein .175 yoffset -4
+    easeout .175 yoffset 0
+    yoffset 0
+
+transform upclose:
+    xpos 0.25 yalign 0.5
+
+## mostly for side images
+image side bug neutral = "side bug neutral.png"
+image side bug huh = "side bug huh.png"
+image side bug nervous = "side bug nervous.png"
+
