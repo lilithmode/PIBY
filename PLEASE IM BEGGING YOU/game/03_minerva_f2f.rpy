@@ -109,9 +109,7 @@ label angry_minerva_convo:
 
     t "but what do you think about your other counterparts?"
 
-    pm "I mean, I just wish 'Doldrums' took more interest. All this is a miracle, and they don’t even care!"
-    pm "I mean, honestly, she really needs a reminder that she actually has a very very very very important job, and it needs all of their effort!"
-    pm "Because otherwise, she’d let you down, and that would be terrible! And the OTHER ONE??!! SHE NEEDS A LESSON BECAUSE SHE IS GOING TO RUIN IT FOR ALL OF--"
+    pm "I mean, I just wish 'Doldrums' took more interest. All this is a miracle, and they don’t even care! I mean, honestly, she really needs a reminder that she actually has a very very very very important job, and it needs all of their effort! Because otherwise, she’d let you down, and that would be terrible! And the OTHER ONE??!! SHE NEEDS A LESSON BECAUSE SHE IS GOING TO RUIN IT FOR ALL OF--"
 
     t "hey let’s tone it down - i’m just coding. im not manifesting the will of god."
 
