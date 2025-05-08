@@ -73,9 +73,7 @@ label setup_minervas:
 
     "*click*"
 
-    am "YOU ARE A DEMON."
-   
-    am "YOU ARE AN EVIL THAT CANNOT-"
+    am "YOU ARE A DEMON. YOU ARE AN EVIL THAT CANNOT-"
 
     "*CLICK*"
 
