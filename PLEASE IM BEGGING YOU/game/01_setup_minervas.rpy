@@ -22,6 +22,7 @@ label setup_minervas:
 
     "Silence. The thick air that follows. A pregnant pause."
 
+    play sound "audio/_sfx_gen/Bfxr_flicker.mp3" volume 0.4
     "The screen jolts itself back to life. Greeted by the fruits of your labor."
     show minervaroom with pixellate
     play music "audio/_music/computer theme.mp3" volume 0.3
