@@ -54,7 +54,7 @@ label start:
 
     "If it weren't for the ever-mounting pressure on your upper back and the very top of your sinuses, maybe, just maybe this would be a means to celebrate."
  
-    "But let's take a step back. Who exactly is celebrating here?"
+    "But let's take a step back. Who exactly is celebrating here? Especially on your third attempt?"
 
     # bug appears, disheveled as fuck with their ID card on full display. would be cool to see how we can move it with technical art.
     show bug wtf at center, small_sprite, Position(xpos=0.5, ypos=0.7)

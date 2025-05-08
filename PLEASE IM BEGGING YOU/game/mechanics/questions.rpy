@@ -1,6 +1,6 @@
 screen questionnaire_screen():
 
-    tag menu  # So it behaves like a menu screen
+    tag menu 
 
     frame:
         style_prefix "pref"
@@ -8,7 +8,7 @@ screen questionnaire_screen():
         yalign 0.5
         xsize 700
         ysize 500
-        background Frame("#00ffc088", 10, 10)  # glowing-ish border
+        background Frame("#00ffc088", 10, 10)  
         padding (10, 10)
 
         viewport:
