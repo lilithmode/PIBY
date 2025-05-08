@@ -78,6 +78,7 @@ label setup_minervas:
 
     "*click*"
     show angry hair at upclose
+    with pixellate
     am "YOU ARE A DEMON. YOU ARE AN EVIL THAT CANNOT-"
     hide angry hair with pixellate
     "*CLICK*"
@@ -91,8 +92,6 @@ label setup_minervas:
     "The three of them bare all of themselves (or, lack of themselves) to you. The opportunities are endless..."
 
     "It seems that Type A is playing with... a text box?"
-
-    
 
     "They present it to you like a dog bringing home an unwarranted visitor in it's mouth."
 
@@ -259,7 +258,7 @@ label setup_minervas:
 
     b "What is happening???"
 
-    dd "i-uh don't understand. what the hell?"
+    dd "i-uh... nevermind. what the hell?"
 
     pm "GRACE. And Joy!"
 
