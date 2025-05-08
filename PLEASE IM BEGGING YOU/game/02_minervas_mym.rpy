@@ -41,9 +41,9 @@ label heads_choice:
             menu:
                 "how was your day?" if "q1" not in asked:
                     $ asked.add("q1")
-                    show doldrums snarky at upclose
-                    with pixellate
-                    dd "tired."
+                    # show doldrums snarky at upclose
+                    # with pixellate
+                    # dd "tired."
                     hide doldrums snarky
                     show angry glare at upclose
                     with pixellate

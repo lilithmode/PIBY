@@ -3,7 +3,7 @@ label angry_minerva_convo:
     t "dude. no. please. i'm"
     show angry neutral at hop
     am " \"DUDE.\" YES."
-    play music "audio/_music/repenting anger.mp3" volume 0.6
+    play music "audio/_music/repenting anger.mp3" 
     t "can't we just... ease into this? my brain feels like it's being microwaved right now."
     show angry hair at hop
     am "GOOD. MAYBE IT'LL SHRIVEL UP THIS TIME AND FINALLY GIVE YOU THE WRINKLES YOU NEEDED."
@@ -153,7 +153,7 @@ label angry_minerva_convo:
 
     t "why do you feel like you don’t have a lot of time?"
     show pious blessed at hop
-    pm "Well, we’re trying to be as useful for you as much as we can!"
+    pm "Well, we’re trying to be as useful for you as much as we can!" id angry_minerva_convo_7cbf9f94
 
     b "Is this one really this goody-two-shoes?"
 

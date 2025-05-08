@@ -316,10 +316,10 @@ label setup_minervas:
     show pious blessed at upclose
     with pixellate
     pm "GRACE. And Joy!"
-    hide pious blessed
-    show doldrums whatevs at upclose
-    dd "yeah. whatever that means." id setup_minervas_9481ef03
-    show doldrums neutral at hop
+    hide pious blessed with pixellate
+    # show doldrums whatevs at upclose
+    # dd "yeah. whatever that means." id setup_minervas_9481ef03
+    # show doldrums neutral at hop
     b "This. Is beyond anything I can comprehend. Or at least digest."
 
     b "Crawling UNDERNEATH? Are they high, or something? It HAS to be something I missed before I relaunched this program."
@@ -327,7 +327,7 @@ label setup_minervas:
     b "It can't be the other ones, they don't... They don't exist anymore!"
 
     b "This has to be perfect or else this won't work for me. It'll be {i}pointless.{/i}"
-    show doldrums neutral at hop
+    show doldrums neutral at upclose
     dd "..."
     show doldrums snarky at hop
     dd "... so r u gonna ask me something? like how my day was? this better b good."
