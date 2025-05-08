@@ -47,7 +47,7 @@ label start:
 #shit i think we need a background for this. thankfully it's only black.
 
     f "You can try to flee from the chill. But the cold's in your bones now."
-    
+
     f "No matter how far you go, it'll {i}{b}always{/b}{/i} find a way in."
 
     "A hum. A dimly lit screen. A sign of life."
@@ -59,11 +59,12 @@ label start:
     "But let's take a step back. Who exactly is celebrating here?"
 
     # bug appears, disheveled as fuck with their ID card on full display. would be cool to see how we can move it with technical art.
-
+    show bug wtf at center, small_sprite, Position(xpos=0.5, ypos=0.7)
+    with pixellate
     "Holy shit."
-
+    hide bug wtf with dissolve
     f "Just look at yourself. You see the wreckage."
-
+    show bug nervous
     f "The bags under your eyes, the slouch of your posture."
 
     f "How peculiar. A warning. You've fallen too deep into this pit."

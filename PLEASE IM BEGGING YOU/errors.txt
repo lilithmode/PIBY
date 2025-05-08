@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/mechanics/styles.rpy", line 14: expecting name after dot.
-    e aseout .175 yoffset 0
-              ^
+File "game/script.rpy", line 62: multiple at clauses are prohibited.
+    show bug wtf at center at small_sprite
+                             ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Thu May  8 00:51:47 2025
+Thu May  8 01:05:00 2025

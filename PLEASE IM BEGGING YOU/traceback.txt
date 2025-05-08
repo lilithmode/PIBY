@@ -1,24 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 49, in script
-    bug "hey i'm testing this still"
-Exception: Sayer 'bug' is not defined.
+  File "game/script.rpy", line 62, in script
+    show bug wtf at small_sprite
+  File "game/script.rpy", line 62, in <module>
+    show bug wtf at small_sprite
+NameError: name 'small_sprite' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 49, in script
-    bug "hey i'm testing this still"
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 2586, in execute
-    Say.execute(self)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 583, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 472, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'bug' is not defined.
+  File "game/script.rpy", line 62, in script
+    show bug wtf at small_sprite
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 1124, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 1083, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/ast.py", line 1083, in <listcomp>
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/nichosantos/Documents/[CODING]/renpy-8.2.3-sdk/renpy/python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 62, in <module>
+    show bug wtf at small_sprite
+NameError: name 'small_sprite' is not defined
 
 macOS-13.4-arm64-arm-64bit arm64
 Ren'Py 8.3.7.25031702
 PLEASE IM BEGGING YOU 1.0
-Mon May  5 02:02:28 2025
+Thu May  8 01:02:23 2025

@@ -17,8 +17,13 @@ transform hop:
 transform upclose:
     xpos 0.25 yalign 0.5
 
+transform small_sprite:
+    xzoom 0.5
+    yzoom 0.5
+
 ## mostly for side images
 image side bug neutral = "side bug neutral.png"
 image side bug huh = "side bug huh.png"
 image side bug nervous = "side bug nervous.png"
+image side bug wtf = "side bug wtf.png"
 
