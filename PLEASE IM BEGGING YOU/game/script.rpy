@@ -45,7 +45,7 @@ label start:
 
     f "You can try to flee from the chill. But the cold's in your bones now." id start_dfa79694
 
-    f "No matter how far you go, it'll {i}{b}always{/b}{/i} find a way in."
+    f "No matter how far you go, it'll {i}{b}always{/b}{/i} find a way in." id start_c5d441f2
 
     "A hum. A dimly lit screen. A sign of life."
 
@@ -60,17 +60,17 @@ label start:
     with pixellate
     "Holy shit."
     hide bug wtf with dissolve
-    f "Just look at yourself. You see the wreckage."
+    f "Just look at yourself. You see the wreckage." id start_b483d9bc
     show side_bug_neutral
-    f "The bags under your eyes, the slouch of your posture."
+    f "The bags under your eyes, the slouch of your posture." id start_55d92647
 
-    f "How peculiar. A warning. You've fallen too deep into this pit."
+    f "How peculiar. A warning. You've fallen too deep into this pit." id start_7b44d2ed
 
-    f "Your isolation's {i}carved{/i} it's mark on you."
+    f "Your isolation's {i}carved{/i} it's mark on you." id start_e1c82833
 
-    f "You think you can stay here? No. You need to get up."
+    f "You think you can stay here? No. You need to get up." id start_b418d00d
 
-    f "You need to face it. RIGHT. NOW."
+    f "You need to face it. RIGHT. NOW." id start_a8ba575d
 
     jump setup_minervas
 
