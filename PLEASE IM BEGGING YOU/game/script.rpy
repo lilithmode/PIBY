@@ -25,7 +25,7 @@ init python:
                 words = what.split()
                 for i in range(len(words)):
                     randosound = renpy.random.randint(1, 5)
-                    renpy.sound.queue(f"audio/sfx_typing_dirty/Bfxr_type_{randosound}.mp3", channel="sound", loop=False)
+                    renpy.sound.queue(f"audio/_sfx_typing_dirty/Bfxr_type_{randosound}.mp3", channel="sound", loop=False)
         elif event == "end" or event == "slow_done": # This stops the text sounds if there is a pause in the dialog or the text has finished displaying
             renpy.sound.stop(channel="sound")
             
