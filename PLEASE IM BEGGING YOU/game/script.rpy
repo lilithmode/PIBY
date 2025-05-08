@@ -43,9 +43,9 @@ label start:
 
 #shit i think we need a background for this. thankfully it's only black.
 
-    f "You can try to flee from the chill.{w=2.0}But{w=0.3} the cold's in your bones now." id start_dfa79694
+    f "You can try to flee from the chill.{w=2.0}But{w=0.35} the cold's in your bones now." id start_dfa79694
 
-    f "No matter how far you go, it'll {i}{b}always{/b}{/i} find a way in." id start_c5d441f2
+    f "No matter how far you go,{w=2.0} it'll {i}{b}always{/b}{/i} find a way in." id start_c5d441f2
 
     "A hum. A dimly lit screen. A sign of life."
 
@@ -60,15 +60,15 @@ label start:
     with pixellate
     "Holy shit."
     hide bug wtf with dissolve
-    f "Just look at yourself. You see the wreckage." id start_b483d9bc
+    f "Just look at yourself. {w=2.0}You see the wreckage." id start_b483d9bc
+    
+    f "The bags under your eyes, {w=1.9}the slouch of your posture." id start_55d92647
 
-    f "The bags under your eyes, the slouch of your posture." id start_55d92647
+    f "How peculiar. {w=1.7}A warning. {w=1.1}You've fallen {w=0.3}too{w=0.2} deep {w=0.2}into this pit." id start_7b44d2ed
 
-    f "How peculiar. A warning. You've fallen too deep into this pit." id start_7b44d2ed
+    f "Your isolation's {w=0.5}{i}carved{/i} {w=0.8}it's mark {w=0.2}on you." id start_e1c82833
 
-    f "Your isolation's {i}carved{/i} it's mark on you." id start_e1c82833
-
-    f "You think you can stay here? No. You need to get up." id start_b418d00d
+    f "You think {w=0.2}you can {w=0.1}stay {w=0.1}here? {w=1.6}No. {w=1.9}You need to get up." id start_b418d00d
 
     f "You need to face it. RIGHT. NOW." id start_a8ba575d
 
