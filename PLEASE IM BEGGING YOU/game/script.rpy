@@ -2,7 +2,7 @@
 init python:
     config.default_text_cps = 30  # adjust to your taste
 
-    config.auto_voice = "audio/{id}.ogg"
+    config.auto_voice = "audio/{id}.mp3"
 
     # This function is optional. Only include it if you want automatic pauses between punctuation
     def typography(what):
@@ -43,7 +43,7 @@ label start:
 
 #shit i think we need a background for this. thankfully it's only black.
 
-    f "You can try to flee from the chill. But the cold's in your bones now."
+    f "You can try to flee from the chill. But the cold's in your bones now." id start_dfa79694
 
     f "No matter how far you go, it'll {i}{b}always{/b}{/i} find a way in."
 
