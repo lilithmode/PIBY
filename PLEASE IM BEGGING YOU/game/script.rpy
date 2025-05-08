@@ -43,9 +43,9 @@ label start:
 
 #shit i think we need a background for this. thankfully it's only black.
 
-    f "You can try to flee from the chill.{w=2.0}But{w=0.35} the cold's in your bones now." id start_dfa79694
+    f "You can try to flee from the chill.{w=2.0} But{w=0.35} the cold's in your bones now." id start_dfa79694
 
-    f "No matter how far you go,{w=2.0} it'll {i}{b}always{/b}{/i} find a way in." id start_c5d441f2
+    f "No matter {w=0.1}how {w=0.1}far {w=0.2}you go,{w=1.5} it'll {i}{b}always{/b}{/i} {w=0.5}find a way in." id start_c5d441f2
 
     "A hum. A dimly lit screen. A sign of life."
 
