@@ -68,9 +68,9 @@ label start:
 
     f "Your isolation's {w=0.5}{i}carved{/i} {w=0.8}it's mark {w=0.2}on you." id start_e1c82833
 
-    f "You think {w=0.2}you can {w=0.1}stay {w=0.1}here? {w=1.6}No. {w=1.9}You need to get up." id start_b418d00d
+    f "You think {w=0.2}you can {w=0.1}stay {w=0.2}here? {w=1.2}No. {w=1.0}You need to get up." id start_b418d00d
 
-    f "You need to face it. RIGHT. NOW." id start_a8ba575d
+    f "You need {w=0.3}to {w=0.2}face {w=0.1}it. {w=0.5}RIGHT. {w=0.15}NOW." id start_a8ba575d
 
     jump setup_minervas
 
