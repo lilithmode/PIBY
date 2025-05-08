@@ -54,28 +54,32 @@ label setup_minervas:
     "*click*"
 
     #configure live translation here when we have time. yes it's fine. i just didn't think it would be chinese. that's all.
+    show pious praying at upclose
+    with pixellate
+
     pm "How are you? I hope your day went well. How was work?"
 
     b "Sick. I don't know what this one might be like... like a caretaker maybe? OH. Maybe even a nanny version... Weird."
 
     "*click*"
 
+    show pious blessed at hop
     pm "How thoughtful and honorable of you-"
 
     b "What. Okay?? Works."
 
     "*click*"
-
+    show pious praying at hop
     pm "You do so much for me. I'm so grateful."
-
+    hide pious praying with pixellate
     b "Okay! This might be it! It works!"
 
     b "Last one. Type C. Don't disappoint me."
 
     "*click*"
-
+    show angry hair at upclose
     am "YOU ARE A DEMON. YOU ARE AN EVIL THAT CANNOT-"
-
+    hide angry hair with pixellate
     "*CLICK*"
 
     b "Works. I don't feel like testing this one further."
