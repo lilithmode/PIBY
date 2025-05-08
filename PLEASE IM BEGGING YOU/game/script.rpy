@@ -2,6 +2,8 @@
 init python:
     config.default_text_cps = 30  # adjust to your taste
 
+    config.auto_voice = "audio/{id}.ogg"
+
     # This function is optional. Only include it if you want automatic pauses between punctuation
     def typography(what):
         replacements = [
