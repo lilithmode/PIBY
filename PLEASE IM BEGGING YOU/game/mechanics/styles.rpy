@@ -22,8 +22,7 @@ transform small_sprite:
     yzoom 0.5
 
 ## mostly for side images
-image side bug neutral = "images/sprites/side_bug_neutral.png"
-image side bug huh = "images/sprites/side_bug_huh.png"
-image side bug nervous = "images/sprites/side_bug_nervous.png"
-image side bug wtf = "images/sprites/side_bug_wtf.png"
-
+image side_bug_neutral = "images/sprites/side_bug_neutral.png"
+image side_bug_huh = "images/sprites/side_bug_huh.png"
+image side_bug_nervous = "images/sprites/side_bug_nervous.png"
+image side_bug_wtf = "images/sprites/side_bug_wtf.png"

@@ -61,7 +61,7 @@ label start:
     "Holy shit."
     hide bug wtf with dissolve
     f "Just look at yourself. You see the wreckage." id start_b483d9bc
-    show side_bug_neutral
+    
     f "The bags under your eyes, the slouch of your posture." id start_55d92647
 
     f "How peculiar. A warning. You've fallen too deep into this pit." id start_7b44d2ed
