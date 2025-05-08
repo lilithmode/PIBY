@@ -31,9 +31,6 @@ init python:
             
 define f = Character("Ferryman")
 define b = Character("Bug", image = "bug")
-
-image side bug = "images/side bug neutral.png"
-
 define t = Character("Terminal (Bug)", callback=typing_sounds)
 define e = Character("Elle")
 define am = Character("Angry Minerva", image = "angry")
@@ -64,7 +61,7 @@ label start:
     "Holy shit."
     hide bug wtf with dissolve
     f "Just look at yourself. You see the wreckage."
-    show bug nervous
+    show side_bug_neutral
     f "The bags under your eyes, the slouch of your posture."
 
     f "How peculiar. A warning. You've fallen too deep into this pit."
