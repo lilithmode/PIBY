@@ -43,38 +43,4 @@ label start:
 
 #shit i think we need a background for this. thankfully it's only black.
 
-    f "You can try to flee from the chill.{w=2.0} But{w=0.35} the cold's in your bones now." id start_dfa79694
-
-    f "No matter {w=0.1}how {w=0.1}far {w=0.2}you go,{w=1.5} it'll {i}{b}always{/b}{/i} {w=0.5}find a way in." id start_c5d441f2
-
-    play sound "audio/_sfx_gen/SFX_ElectricityHum.mp3"
-    "A hum. A dimly lit screen. A sign of life." 
-
-    # the number 3 should appear on screen here to show the motif or whatever
-
-    "If it weren't for the ever-mounting pressure on your upper back and the very top of your sinuses, maybe, just maybe this would be a means to celebrate."
- 
-    "But let's take a step back. Who exactly is celebrating here? Especially on your third attempt?"
-
-    # bug appears, disheveled as fuck with their ID card on full display. would be cool to see how we can move it with technical art.
-    show bug wtf at center, small_sprite, Position(xpos=0.5, ypos=0.7)
-    with pixellate
-    "Holy shit."
-
-    f "Just look at yourself. {w=2.0}You see the wreckage." id start_b483d9bc
-    
-    f "The bags under your eyes, {w=1.9}the slouch of your posture." id start_55d92647
-
-    f "How peculiar. {w=1.7}A warning. {w=1.1}You've fallen {w=0.3}too{w=0.2} deep {w=0.2}into this pit." id start_7b44d2ed
-
-    f "Your isolation's {w=0.5}{i}carved{/i} {w=0.8}it's mark {w=0.2}on you." id start_e1c82833
-
-    f "You think {w=0.2}you can {w=0.1}stay {w=0.2}here? {w=1.2}No. {w=1.0}You need to get up." id start_b418d00d
-
-    f "You need {w=0.3}to {w=0.2}face {w=0.1}it. {w=0.5}RIGHT. {w=0.15}NOW." id start_a8ba575d
-    hide bug wtf with dissolve
-    jump setup_minervas
-
-    # This ends the game.
-
     return
